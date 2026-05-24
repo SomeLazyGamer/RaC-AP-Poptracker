@@ -2,6 +2,7 @@
   "name": "Ratchet & Clank 1 Archipelago",
   "game_name": "Ratchet & Clank",
   "package_version": "1.0.0",
+  "min_poptracker_version": "0.27.0",
   "package_uid": "RaC1_Tracker_SLG",
   "author": "SomeLazyGamer",
   "variants": {
@@ -18,5 +19,5 @@
       ]
     }
   },
-  "min_poptracker_version": "0.27.0"
+  "versions_url": "https://raw.githubusercontent.com/SomeLazyGamer/RaC-AP-Poptracker/refs/heads/main/versions.json"
 }
