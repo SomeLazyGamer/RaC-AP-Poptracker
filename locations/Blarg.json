@@ -43,6 +43,7 @@
             },
             {
                 "name": "Cages",
+                "access_rules": [ "Swingshot"],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
                     {
@@ -94,6 +95,7 @@
             },
             {
                 "name": "Explore the Space Station",
+                "access_rules": [ "Swingshot"],
                 "sections": [
                     {
                         "item_count": 1

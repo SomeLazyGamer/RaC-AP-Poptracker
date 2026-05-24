@@ -66,7 +66,7 @@
             },
             {
                 "name": "Destroy the Planetbuster",
-                "access_rules": [ "HeliPack, Visibomb","HeliPack, ProgBlaster", "HeliPack, ProgDevastator", "HeliPack, RYNO", "ThrusterPack, Visibomb","ThrusterPack, ProgBlaster", "ThrusterPack, ProgDevastator", "ThrusterPack, RYNO" ],
+                "access_rules": [ "HeliPack, Visibomb","HeliPack, Blaster", "HeliPack, Devastator", "HeliPack, RYNO", "ThrusterPack, Visibomb","ThrusterPack, Blaster", "ThrusterPack, Devastator", "ThrusterPack, RYNO" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {

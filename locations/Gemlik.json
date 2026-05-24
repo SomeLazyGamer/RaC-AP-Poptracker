@@ -28,7 +28,7 @@
             },
             {
                 "name": "Defeat Captain Quark",
-                "access_rules": [ "Trespasser, Swingshot, HeliPack, Visibomb","Trespasser, Swingshot, HeliPack, ProgBlaster","Trespasser, Swingshot, HeliPack, ProgDevastator","Trespasser, Swingshot, HeliPack, RYNO","Trespasser, Swingshot, ThrusterPack, Visibomb","Trespasser, Swingshot, ThrusterPack, ProgBlaster","Trespasser, Swingshot, ThrusterPack, ProgDevastator","Trespasser, Swingshot, ThrusterPack, RYNO" ],
+                "access_rules": [ "Trespasser, Swingshot, HeliPack, Visibomb","Trespasser, Swingshot, HeliPack, Blaster","Trespasser, Swingshot, HeliPack, Devastator","Trespasser, Swingshot, HeliPack, RYNO","Trespasser, Swingshot, ThrusterPack, Visibomb","Trespasser, Swingshot, ThrusterPack, Blaster","Trespasser, Swingshot, ThrusterPack, Devastator","Trespasser, Swingshot, ThrusterPack, RYNO" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {
@@ -41,7 +41,7 @@
             },
             {
                 "name": "Golden Weapons",
-                "access_rules": [ "MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, Visibomb","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, ProgBlaster","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, ProgDevastator","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, RYNO","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, Visibomb","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, ProgBlaster","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, ProgDevastator","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, RYNO" ],
+                "access_rules": [ "MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, Visibomb","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, Blaster","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, Devastator","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, RYNO","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, Visibomb","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, Blaster","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, Devastator","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, RYNO" ],
                 "sections": [
                     {
                         "name": "Golden Weapon 1 - 60,000 Bolts",

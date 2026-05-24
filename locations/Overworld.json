@@ -332,7 +332,7 @@
                 "sections": [
                     {
                         "name": "Grindrail - Helpdesk",
-                        "ref": "Kalebo III/Grindrail/Helpdesk/"
+                        "ref": "Kalebo III/Helpdesk/"
                     },
                     {
                         "name": "Kalebo III - Win the hoverboard race",
@@ -409,6 +409,26 @@
                         "ref": "Novalis/Vendor/2,500 Bolts"
                     },
                     {
+                        "name": "Novalis - Plumber",
+                        "ref": "Novalis/Plumber/"
+                    },
+                    {
+                        "name": "Novalis - Chairman",
+                        "ref": "Novalis/Chairman/"
+                    },
+                    {
+                        "name": "Gold Bolt - Waterworks",
+                        "ref": "Novalis/Waterworks/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Caves",
+                        "ref": "Novalis/Caves/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Amoeboid Caves",
+                        "ref": "Novalis/Amoeboid Caves/Gold Bolt"
+                    },
+                    {
                         "name": "Golden Weapon 1 - 60,000 Bolts",
                         "ref": "Novalis/Golden Weapons/Golden Weapon 1 - 60,000 Bolts"
                     },
@@ -447,26 +467,6 @@
                     {
                         "name": "Golden Weapon 10 - 10,000 Bolts",
                         "ref": "Novalis/Golden Weapons/Golden Weapon 10 - 10,000 Bolts"
-                    },
-                    {
-                        "name": "Novalis - Plumber",
-                        "ref": "Novalis/Plumber/"
-                    },
-                    {
-                        "name": "Novalis - Chairman",
-                        "ref": "Novalis/Chairman/"
-                    },
-                    {
-                        "name": "Gold Bolt - Waterworks",
-                        "ref": "Novalis/Waterworks/Gold Bolt"
-                    },
-                    {
-                        "name": "Gold Bolt - Caves",
-                        "ref": "Novalis/Caves/Gold Bolt"
-                    },
-                    {
-                        "name": "Gold Bolt - Amoeboid Caves",
-                        "ref": "Novalis/Amoeboid Caves/Gold Bolt"
                     }
                 ],
                 "map_locations": [

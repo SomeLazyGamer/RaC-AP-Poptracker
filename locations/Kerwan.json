@@ -110,6 +110,7 @@
             },
             {
                 "name": "Ride the Robot Train",
+                "access_rules": [ "HeliPack", "ThrusterPack" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {
