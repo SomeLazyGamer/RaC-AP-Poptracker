@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Solana",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Solana.png"
+  },
+  {
+    "name": "Novalis",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Novalis.png"
+  },
+  {
+    "name": "Kerwan",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Kerwan.png"
+  },
+  {
+    "name": "Aridia",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Aridia.png"
+  },
+  {
+    "name": "Eudora",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Eudora.png"
+  },
+  {
+    "name": "Blarg",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/BlargStation.png"
+  },
+  {
+    "name": "Rilgar",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Rilgar.png"
+  },
+  {
+    "name": "Umbris",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Umbris.png"
+  },
+  {
+    "name": "Batalia",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Batalia.png"
+  },
+  {
+    "name": "Orxon",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Orxon.png"
+  },
+  {
+    "name": "Gaspar",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Gaspar.png"
+  },
+  {
+    "name": "Pokitaru",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Pokitaru.png"
+  },
+  {
+    "name": "Hoven",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Hoven.png"
+  },
+  {
+    "name": "Gemlik Base",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Gemlik.png"
+  },
+  {
+    "name": "Oltanis",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Oltanis.png"
+  },
+  {
+    "name": "Quartu",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Quartu.png"
+  },
+  {
+    "name": "Kalebo III",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Kalebo.png"
+  },
+  {
+    "name": "Drek's Fleet",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/DreksFleet.png"
+  },
+  {
+    "name": "Veldin",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Veldin.png"
+  }
+]

@@ -1,0 +1,473 @@
+[
+  {
+    "name": "Trespasser",
+    "type": "toggle",
+    "img": "images/items/Trespasser.png",
+    "codes": "Trespasser"
+  },
+  {
+    "name": "Hydrodisplacer",
+    "type": "toggle",
+    "img": "images/items/Hydrodisplacer.png",
+    "codes": "Hydrodisplacer"
+  },
+  {
+    "name": "Swingshot",
+    "type": "toggle",
+    "img": "images/items/Swingshot.png",
+    "codes": "Swingshot"
+  },
+  {
+    "name": "PDA",
+    "type": "toggle",
+    "img": "images/items/PDA.png",
+    "codes": "PDA"
+  },
+  {
+    "name": "Metal Detector",
+    "type": "toggle",
+    "img": "images/items/Metal_Detector.png",
+    "codes": "MetalDetector"
+  },
+  {
+    "name": "Hologuise",
+    "type": "toggle",
+    "img": "images/items/Hologuise.png",
+    "codes": "Hologuise"
+  },
+  {
+    "name": "Heli-pack",
+    "type": "toggle",
+    "img": "images/items/HeliPack.png",
+    "codes": "HeliPack"
+  },
+  {
+    "name": "Thruster-pack",
+    "type": "toggle",
+    "img": "images/items/ThrusterPack.png",
+    "codes": "ThrusterPack"
+  },
+  {
+    "name": "Hydro-pack",
+    "type": "toggle",
+    "img": "images/items/HydroPack.png",
+    "codes": "HydroPack"
+  },
+  {
+    "name": "O2 Mask",
+    "type": "toggle",
+    "img": "images/items/O2Mask.png",
+    "codes": "O2Mask"
+  },
+  {
+    "name": "Sonic Summoner",
+    "type": "toggle",
+    "img": "images/items/SonicSummoner.png",
+    "codes": "SonicSummoner"
+  },
+  {
+    "name": "Pilot Helmet",
+    "type": "toggle",
+    "img": "images/items/PilotHelmet.png",
+    "codes": "PilotHelmet"
+  },
+  {
+    "name": "Grind Boots",
+    "type": "toggle",
+    "img": "images/items/GrindBoots.png",
+    "codes": "GrindBoots"
+  },
+  {
+    "name": "Magneboots",
+    "type": "toggle",
+    "img": "images/items/Magneboots.png",
+    "codes": "Magneboots"
+  },
+  {
+    "name": "Hoverboard",
+    "type": "toggle",
+    "img": "images/items/Hoverboard.png",
+    "codes": "Hoverboard"
+  },
+  {
+    "name": "Persuader",
+    "type": "toggle",
+    "img": "images/items/Persuader.png",
+    "codes": "Persuader"
+  },
+  {
+    "name": "Bolt Grabber",
+    "type": "toggle",
+    "img": "images/items/BoltGrabber.png",
+    "codes": "BoltGrabber"
+  },
+  {
+    "name": "Premium Nanotech",
+    "type": "toggle",
+    "img": "images/items/PremiumNanotech.png",
+    "codes": "PremiumNanotech"
+  },
+  {
+    "name": "Ultra Nanotech",
+    "type": "toggle",
+    "img": "images/items/UltraNanotech.png",
+    "codes": "UltraNanotech"
+  },
+  {
+    "name": "Map-o-Matic",
+    "type": "toggle",
+    "img": "images/items/Map-o-Matic.png",
+    "codes": "Map-o-Matic"
+  },
+  {
+    "name": "Zoomerator",
+    "type": "toggle",
+    "img": "images/items/Zoomerator.png",
+    "codes": "Zoomerator"
+  },
+  {
+    "name": "Raritanium",
+    "type": "toggle",
+    "img": "images/items/Raritanium.png",
+    "codes": "Raritanium"
+  },
+  {
+    "name": "Codebot",
+    "type": "toggle",
+    "img": "images/items/Codebot.png",
+    "codes": "Codebot"
+  },
+  {
+    "name": "Novalis",
+    "type": "toggle",
+    "img": "images/items/Novalis.png",
+    "codes": "Novalis"
+  },
+	{
+    "name": "Kerwan",
+    "type": "toggle",
+    "img": "images/items/Kerwan.png",
+    "codes": "Kerwan"
+  },
+	{
+    "name": "Aridia",
+    "type": "toggle",
+    "img": "images/items/Aridia.png",
+    "codes": "Aridia"
+  },
+	{
+    "name": "Eudora",
+    "type": "toggle",
+    "img": "images/items/Eudora.png",
+    "codes": "Eudora"
+  },
+	{
+    "name": "Blarg Station",
+    "type": "toggle",
+    "img": "images/items/Blarg.png",
+    "codes": "Blarg"
+  },
+	{
+    "name": "Rilgar",
+    "type": "toggle",
+    "img": "images/items/Rilgar.png",
+    "codes": "Rilgar"
+  },
+	{
+    "name": "Umbris",
+    "type": "toggle",
+    "img": "images/items/Umbris.png",
+    "codes": "Umbris"
+  },
+	{
+    "name": "Batalia",
+    "type": "toggle",
+    "img": "images/items/Batalia.png",
+    "codes": "Batalia"
+  },
+	{
+    "name": "Orxon",
+    "type": "toggle",
+    "img": "images/items/Orxon.png",
+    "codes": "Orxon"
+  },
+	{
+    "name": "Gaspar",
+    "type": "toggle",
+    "img": "images/items/Gaspar.png",
+    "codes": "Gaspar"
+  },
+	{
+    "name": "Pokitaru",
+    "type": "toggle",
+    "img": "images/items/Pokitaru.png",
+    "codes": "Pokitaru"
+  },
+	{
+    "name": "Hoven",
+    "type": "toggle",
+    "img": "images/items/Hoven.png",
+    "codes": "Hoven"
+  },
+	{
+    "name": "Gemlik Base",
+    "type": "toggle",
+    "img": "images/items/Gemlik.png",
+    "codes": "Gemlik"
+  },
+	{
+    "name": "Oltanis",
+    "type": "toggle",
+    "img": "images/items/Oltanis.png",
+    "codes": "Oltanis"
+  },
+	{
+    "name": "Quartu",
+    "type": "toggle",
+    "img": "images/items/Quartu.png",
+    "codes": "Quartu"
+  },
+	{
+    "name": "Kalebo III",
+    "type": "toggle",
+    "img": "images/items/Kalebo III.png",
+    "codes": "KaleboIII"
+  },
+	{
+    "name": "Drek's Fleet",
+    "type": "toggle",
+    "img": "images/items/Fleet.png",
+    "codes": "Fleet"
+  },
+	{
+    "name": "Veldin",
+    "type": "toggle",
+    "img": "images/items/Veldin.png",
+    "codes": "Veldin"
+  },
+  {
+      "name": "Progressive Bomb Glove",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Bomb Glove",
+              "img": "images/items/BombGlove.png",
+              "codes": "BombGlove"
+          },
+          {
+              "name": "Gold Bomb Glove",
+              "img": "images/items/GoldBombGlove.png",
+              "codes": "GoldBombGlove"
+          }
+      ],
+      "codes": "ProgBombGlove"
+  },
+  {
+      "name": "Progressive Pyrocitor",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Pyrocitor",
+              "img": "images/items/Pyrocitor.png",
+              "codes": "Pyrocitor"
+          },
+          {
+              "name": "Gold Pyrocitor",
+              "img": "images/items/GoldPyrocitor.png",
+              "codes": "GoldPyrocitor"
+          }
+        ],
+        "codes": "ProgPyrocitor"
+  },
+  {
+      "name": "Progressive Blaster",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Blaster",
+              "img": "images/items/Blaster.png",
+              "codes": "Blaster"
+          },
+          {
+              "name": "Gold Blaster",
+              "img": "images/items/GoldBlaster.png",
+              "codes": "GoldBlaster"
+          }
+      ],
+      "codes": "ProgBlaster"
+  },
+  {
+      "name": "Progressive Glove of Doom",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Glove of Doom",
+              "img": "images/items/GloveofDoom.png",
+              "codes": "GloveofDoom"
+          },
+          {
+              "name": "Gold Glove of Doom",
+              "img": "images/items/GoldGloveofDoom.png",
+              "codes": "GoldGloveofDoom"
+          }
+      ],
+      "codes": "ProgGloveofDoom"
+  },
+  {
+      "name": "Progressive Mine Glove",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Mine Glove",
+              "img": "images/items/MineGlove.png",
+              "codes": "MineGlove"
+          },
+          {
+              "name": "Gold Mine Glove",
+              "img": "images/items/GoldMineGlove.png",
+              "codes": "GoldMineGlove"
+          }
+      ],
+      "codes": "ProgMineGlove"
+  },
+  {
+    "name": "Taunter",
+    "type": "toggle",
+    "img": "images/items/Taunter.png",
+    "codes": "Taunter"
+  },
+    {
+        "name": "Progressive Suck Cannon",
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Suck Cannon",
+                "img": "images/items/SuckCannon.png",
+                "codes": "SuckCannon"
+            },
+            {
+                "name": "Gold Suck Cannon",
+                "img": "images/items/GoldSuckCannon.png",
+                "codes": "GoldSuckCannon"
+            }
+        ],
+        "codes": "ProgSuckCannon"
+    },
+    {
+        "name": "Progressive Devastator",
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Devastator",
+                "img": "images/items/Devastator.png",
+                "codes": "Devastator"
+            },
+            {
+                "name": "Gold Devastator",
+                "img": "images/items/GoldDevastator.png",
+                "codes": "GoldDevastator"
+            }
+        ],
+        "codes": "ProgDevastator"
+    },
+  {
+    "name": "Walloper",
+    "type": "toggle",
+    "img": "images/items/Walloper.png",
+    "codes": "Walloper"
+  },
+  {
+    "name": "Visibomb",
+    "type": "toggle",
+    "img": "images/items/Visibomb.png",
+    "codes": "Visibomb"
+  },
+    {
+        "name": "Progressive Decoy Glove",
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Decoy Glove",
+                "img": "images/items/DecoyGlove.png",
+                "codes": "DecoyGlove"
+            },
+            {
+                "name": "Gold Decoy Glove",
+                "img": "images/items/GoldDecoyGlove.png",
+                "codes": "GoldDecoyGlove"
+            }
+        ],
+        "codes": "ProgDecoyGlove"
+    },
+  {
+    "name": "Drone Device",
+    "type": "toggle",
+    "img": "images/items/DroneDevice.png",
+    "codes": "DroneDevice"
+  },
+    {
+        "name": "Progressive Tesla Claw",
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Tesla Claw",
+                "img": "images/items/TeslaClaw.png",
+                "codes": "TeslaClaw"
+            },
+            {
+                "name": "Gold Tesla Claw",
+                "img": "images/items/GoldTeslaClaw.png",
+                "codes": "GoldTeslaClaw"
+            }
+        ],
+        "codes": "ProgTeslaClaw"
+    },
+    {
+        "name": "Progressive Morph-o-Ray",
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Morph-o-Ray",
+                "img": "images/items/Morph-o-Ray.png",
+                "codes": "Morph-o-Ray"
+            },
+            {
+                "name": "Gold Morph-o-Ray",
+                "img": "images/items/GoldMorph-o-Ray.png",
+                "codes": "GoldMorph-o-Ray"
+            }
+        ],
+        "codes": "ProgMorph-o-Ray"
+    },
+  {
+    "name": "R.Y.N.O.",
+    "type": "toggle",
+    "img": "images/items/RYNO.png",
+    "codes": "RYNO"
+  },
+  {
+    "name": "Gold Bolts",
+    "type": "consumable",
+    "img": "images/items/GoldBolt.png",
+    "codes": "GoldBolt",
+	  "max_quantity": 40
+  },
+  {
+    "name": "Bolt Shuffle",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/GoldBoltOff.png",
+          "name": "Gold Bolts - Off",
+          "codes": "BoltSanity,BoltDisabled"
+      },
+      {
+        "img": "images/items/GoldBolt.png",
+        "name": "Gold Bolts - On",
+        "codes": "BoltSanity,Bolt"
+      }
+    ]
+  }
+]

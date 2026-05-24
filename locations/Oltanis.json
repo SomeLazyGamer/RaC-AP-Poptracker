@@ -1,0 +1,151 @@
+[
+    {
+        "name": "Oltanis",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Oltanis" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "access_rules": [ "MetalDetector" ],
+                "sections": [
+                    {
+                        "name": "40,000 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "282",
+                        "y": "313",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Swingshot Upper Ledge",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "Swingshot, Grindboots"],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "48",
+                        "y": "108",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Ledge near Bomber",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "Magneboots"],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "248",
+                        "y": "444",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Ledge hang",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "Magneboots"],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "318",
+                        "y": "442",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "All Objectives",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "Swingshot, Magneboots, Grindboots"],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "277",
+                        "y": "176",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Scrap Merchant",
+                "access_rules": [ "Grindboots"],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "221",
+                        "y": "257",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Buy the PDA from Steve",
+                "access_rules": [ "Magneboots"],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "314",
+                        "y": "368",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Search the city",
+                "access_rules": [ "Swingshot"],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "378",
+                        "y": "403",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

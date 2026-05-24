@@ -1,0 +1,48 @@
+{
+  "weapon_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "1, 1",
+            "h_alignment": "left",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_height": 50,
+            "item_width": 50,
+            "rows": [
+              [
+                "ProgBombGlove",
+                "ProgPyrocitor",
+                "ProgBlaster",
+                "ProgGloveofDoom",
+                "ProgMineGlove"
+              ],
+              [
+                "Taunter",
+                "ProgSuckCannon",
+                "ProgDevastator",
+                "Walloper",
+                "Visibomb"
+              ],
+              [
+                "ProgDecoyGlove",
+                "DroneDevice",
+                "ProgTeslaClaw",
+                "ProgMorph-o-Ray",
+                "RYNO"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

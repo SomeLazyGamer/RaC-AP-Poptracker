@@ -1,0 +1,59 @@
+{
+  "shared_item_grid_horizontal": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "h_alignment": "left",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_height": 36,
+            "item_width": 36,
+            "rows": [
+              [
+                "Trespasser",
+                "Hydrodisplacer",
+                "Swingshot",
+                "Hoverboard",
+                "Persuader",
+                "BoltGrabber"
+              ],
+              [
+                "PDA",
+                "MetalDetector",
+                "Hologuise",
+                "PremiumNanotech",
+                "UltraNanotech",
+                "Map-o-Matic"
+              ],
+              [
+                "HeliPack",
+                "ThrusterPack",
+                "HydroPack",
+                "Zoomerator",
+                "Raritanium",
+                "Codebot"
+              ],
+              [
+                "O2Mask",
+                "SonicSummoner",
+                "PilotHelmet",
+                "GrindBoots",
+                "Magneboots",
+                "GoldBolt"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

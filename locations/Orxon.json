@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Orxon",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Orxon" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "access_rules": [ "MetalDetector" ],
+                "sections": [
+                    {
+                        "name": "15,000 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "216",
+                        "y": "346",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Return to the Clank section",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "O2Mask" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "130",
+                        "y": "383",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Long Tunnel",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "O2Mask, HeliPack, Swingshot, Magneboots, Visibomb" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "313",
+                        "y": "428",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Clank - Traverse the Wilderness",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "239",
+                        "y": "332",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Clank - Search the Labs",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "228",
+                        "y": "366",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Chase the Infobot",
+                "access_rules": [ "O2Mask, HeliPack, Swingshot, Magneboots" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "349",
+                        "y": "243",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Nanotech Vendor",
+                "sections": [
+                    {
+                        "name": "Buy the premium nanotech",
+                        "access_rules": [ "O2Mask, HeliPack" ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buy the ultra nanotech",
+                        "access_rules": [ "O2Mask, HeliPack, MetalDetector" ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "96",
+                        "y": "330",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Rilgar",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Rilgar" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "access_rules": [ "MetalDetector" ],
+                "sections": [
+                    {
+                        "name": "7,500 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "348",
+                        "y": "444",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Shady Salesman",
+                "access_rules": [ "MetalDetector" ],
+                "sections": [
+                    {
+                        "name": "150,000 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "472",
+                        "y": "158",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Maze",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "HeliPack", "ThrusterPack" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "368",
+                        "y": "122",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Sewer Cave",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "HeliPack, O2Mask, Hydrodisplacer, Swingshot", "ThrusterPack, O2Mask, Hydrodisplacer, Swingshot" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "111",
+                        "y": "183",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Locate Captain Quark",
+                "access_rules": [ "HeliPack, Hydrodisplacer, Swingshot", "ThrusterPack, Hydrodisplacer, Swingshot" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "174",
+                        "y": "325",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Win the hoverboard race",
+                "access_rules": [ "HeliPack, Hoverboard", "ThrusterPack, Hoverboard" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "257",
+                        "y": "286",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

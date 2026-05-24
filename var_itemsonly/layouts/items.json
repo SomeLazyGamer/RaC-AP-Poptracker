@@ -1,0 +1,89 @@
+{
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "h_alignment": "center",
+            "item_size": "54",
+            "rows": [
+              [
+                "ProgBombGlove",
+                "ProgPyrocitor",
+                "ProgBlaster",
+                "ProgGloveofDoom",
+                "ProgMineGlove",
+                "Novalis",
+                "Kerwan",
+                "Aridia",
+                "Eudora",
+                "Blarg",
+                "Rilgar"
+              ],
+              [
+                "Taunter",
+                "ProgSuckCannon",
+                "ProgDevastator",
+                "Walloper",
+                "Visibomb",
+                "Umbris",
+                "Batalia",
+                "Orxon",
+                "Gaspar",
+                "Pokitaru",
+                "Hoven"
+              ],
+              [
+                "ProgDecoyGlove",
+                "DroneDevice",
+                "ProgTeslaClaw",
+                "ProgMorph-o-Ray",
+                "RYNO",
+                "Gemlik",
+                "Oltanis",
+                "Quartu",
+                "KaleboIII",
+                "Fleet",
+                "Veldin"
+              ],
+              [
+                "Trespasser",
+                "Hydrodisplacer",
+                "Swingshot",
+                "PDA",
+                "MetalDetector",
+                "Hologuise",
+                "HeliPack",
+                "ThrusterPack",
+                "HydroPack",
+                "O2Mask",
+                "SonicSummoner",
+                "PilotHelmet"
+              ],
+              [
+                "Hoverboard",
+                "Persuader",
+                "BoltGrabber",
+                "PremiumNanotech",
+                "UltraNanotech",
+                "Map-o-Matic",
+                "Zoomerator",
+                "Raritanium",
+                "Codebot",
+                "GoldBolt"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

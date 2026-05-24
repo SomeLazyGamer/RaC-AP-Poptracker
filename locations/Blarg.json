@@ -1,0 +1,113 @@
+[
+    {
+        "name": "Blarg",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Blarg" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "sections": [
+                    {
+                        "name": "2,500 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "200",
+                        "y": "434",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Outside",
+                "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "Trespasser, O2Mask"],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "88",
+                        "y": "370",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Cages",
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "202",
+                        "y": "112",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Outside as Clank",
+                "access_rules": [ "Trespasser" ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "138",
+                        "y": "350",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Destroy the Warship",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "369",
+                        "y": "372",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Explore the Space Station",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "90",
+                        "y": "180",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

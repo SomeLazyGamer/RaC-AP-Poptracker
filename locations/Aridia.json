@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Aridia",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Aridia" ],
+        "children": [
+            {
+                "name": "Construction Zone",
+                "access_rules": [ "Swingshot" ],
+                "sections": [
+                    {
+                        "name": "Reward",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gold Bolt",
+                        "visibility_rules": [ "Bolt" ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aridia",
+                        "x": "107",
+                        "y": "113",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Laser",
+                "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "Magneboots" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aridia",
+                        "x": "367",
+                        "y": "57",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Island",
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aridia",
+                        "x": "385",
+                        "y": "248",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Sandshark Cave",
+                "access_rules": [ "BombGlove", "MineGlove", "Devastator", "Visibomb", "RYNO" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aridia",
+                        "x": "253",
+                        "y": "431",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Kill the Sand Sharks",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aridia",
+                        "x": "252",
+                        "y": "352",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Bring Zoomerator to Agent",
+                "access_rules": ["Zoomerator"],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aridia",
+                        "x": "391",
+                        "y": "131",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

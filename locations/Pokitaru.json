@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Pokitaru",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Pokitaru" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "access_rules": [ "MetalDetector" ],
+                "sections": [
+                    {
+                        "name": "7,500 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "224",
+                        "y": "418",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Waterfalls",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "Swingshot, ThrusterPack" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "140",
+                        "y": "128",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Pilot the Ship",
+                "access_rules": [ "PilotHelmet, ThrusterPack" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "449",
+                        "y": "138",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Trade Raritanium",
+                "access_rules": [ "Raritanium, Hydrodisplacer, Trespasser" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "317",
+                        "y": "469",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Bob's Shop",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "393",
+                        "y": "137",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Quartu",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Quartu" ],
+        "children": [
+            {
+                "name": "Behind Clank's mother",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "ThrusterPack, Hologuise, Swingshot" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quartu",
+                        "x": "340",
+                        "y": "120",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Codebot door",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "Codebot, Swingshot" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quartu",
+                        "x": "127",
+                        "y": "295",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Giant Clank Fight",
+                "access_rules": [ "Swingshot" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Quartu",
+                        "x": "73",
+                        "y": "255",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Water Path",
+                "access_rules": [ "O2Mask, HydroPack" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Quartu",
+                        "x": "362",
+                        "y": "321",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Clank's mother",
+                "access_rules": [ "ThrusterPack, Hologuise, Swingshot" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Quartu",
+                        "x": "330",
+                        "y": "154",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

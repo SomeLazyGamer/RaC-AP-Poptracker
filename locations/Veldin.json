@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Veldin",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Veldin, Hydrodisplacer, ThrusterPack, Magneboots, Trespasser" ],
+        "children": [
+            {
+                "name": "Taunter the horny toad",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "Taunter" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Veldin",
+                        "x": "286",
+                        "y": "181",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Platforms",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Veldin",
+                        "x": "403",
+                        "y": "130",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Grindrail",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "Grindboots, Swingshot" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Veldin",
+                        "x": "218",
+                        "y": "257",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Drek",
+                "access_rules": [ "Swingshot" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Veldin",
+                        "x": "322",
+                        "y": "373",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

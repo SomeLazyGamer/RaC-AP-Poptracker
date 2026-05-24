@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Gaspar",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Gaspar" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "access_rules": [ "MetalDetector" ],
+                "sections": [
+                    {
+                        "name": "7,500 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "302",
+                        "y": "54",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Destroy the Bombers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "Swingshot" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "500",
+                        "y": "338",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Volcano",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "HeliPack", "ThrusterPack" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "349",
+                        "y": "49",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Get the pilot helmet",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "380",
+                        "y": "202",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

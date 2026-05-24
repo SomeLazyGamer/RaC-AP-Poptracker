@@ -1,0 +1,178 @@
+{
+  "tabbed_maps_horizontal": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Solana",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Solana"
+          ]
+        }
+      },
+      {
+        "title": "Novalis",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Novalis"
+          ]
+        }
+      },
+      {
+        "title": "Kerwan",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Kerwan"
+          ]
+        }
+      },
+      {
+        "title": "Aridia",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Aridia"
+          ]
+        }
+      },
+      {
+        "title": "Eudora",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Eudora"
+          ]
+        }
+      },
+      {
+        "title": "Blarg Station",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Blarg"
+          ]
+        }
+      },
+      {
+        "title": "Rilgar",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Rilgar"
+          ]
+        }
+      },
+      {
+        "title": "Umbris",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Umbris"
+          ]
+        }
+      },
+      {
+        "title": "Batalia",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Batalia"
+          ]
+        }
+      },
+      {
+        "title": "Orxon",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Orxon"
+          ]
+        }
+      },
+      {
+        "title": "Gaspar",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Gaspar"
+          ]
+        }
+      },
+      {
+        "title": "Pokitaru",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Pokitaru"
+          ]
+        }
+      },
+      {
+        "title": "Hoven",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Hoven"
+          ]
+        }
+      },
+      {
+        "title": "Gemlik Base",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Gemlik Base"
+          ]
+        }
+      },
+      {
+        "title": "Oltanis",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Oltanis"
+          ]
+        }
+      },
+      {
+        "title": "Quartu",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Quartu"
+          ]
+        }
+      },
+      {
+        "title": "Kalebo III",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Kalebo III"
+          ]
+        }
+      },
+      {
+        "title": "Drek's Fleet",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Drek's Fleet"
+          ]
+        }
+      },
+      {
+        "title": "Veldin",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Veldin"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Kerwan",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Kerwan" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "sections": [
+                    {
+                        "name": "2,500 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "290",
+                        "y": "410",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Underpass",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "294",
+                        "y": "434",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Train Station",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "HeliPack", "ThrusterPack" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "313",
+                        "y": "99",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Fitness Course Tower",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "HeliPack"],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "184",
+                        "y": "312",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Fitness Course",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "108",
+                        "y": "492",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Al's Roboshack",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "335",
+                        "y": "288",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Ride the Robot Train",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "224",
+                        "y": "128",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Umbris",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Umbris" ],
+        "children": [
+            {
+                "name": "Lighthouse puzzle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "HeliPack, Swingshot"],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Umbris",
+                        "x": "348",
+                        "y": "279",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Jumping Down",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "HeliPack, Swingshot"],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Umbris",
+                        "x": "284",
+                        "y": "235",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Defeat the Snagglebeast",
+                "access_rules": [ "HeliPack, Hydrodisplacer, Swingshot"],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Umbris",
+                        "x": "210",
+                        "y": "47",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

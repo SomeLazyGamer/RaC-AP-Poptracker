@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Eudora",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Eudora" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "access_rules": [ "MetalDetector" ],
+                "sections": [
+                    {
+                        "name": "7,500 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eudora",
+                        "x": "272",
+                        "y": "327",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "sections": [{"item_count": 1}],
+                "visibility_rules": [ "Bolt" ],
+                "map_locations": [
+                    {
+                        "map": "Eudora",
+                        "x": "310",
+                        "y": "314",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Explore the Mills",
+                "access_rules": [ "HeliPack" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Eudora",
+                        "x": "423",
+                        "y": "176",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Robot Lieutenant",
+                "access_rules": [ "HeliPack, Swingshot, Trespasser" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Eudora",
+                        "x": "301",
+                        "y": "352",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

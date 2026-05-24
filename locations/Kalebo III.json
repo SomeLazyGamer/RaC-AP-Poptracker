@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Kalebo III",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "KaleboIII" ],
+        "children": [
+            {
+                "name": "On the Grindrail",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "Grindboots" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "353",
+                        "y": "448",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Employee break room",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "Grindboots" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "383",
+                        "y": "132",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Helpdesk",
+                "access_rules": [ "Grindboots" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "358",
+                        "y": "250",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Win the hoverboard race",
+                "access_rules": [ "Grindboots, Swingshot, Hoverboard" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "94",
+                        "y": "132",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Gemlik",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Gemlik" ],
+        "children": [
+            {
+                "name": "Visibomb Hidden Tower",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "HeliPack, Trespasser, Visibomb", "ThrusterPack, Trespasser, Visibomb" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gemlik Base",
+                        "x": "297",
+                        "y": "86",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Captain Quark",
+                "access_rules": [ "Trespasser, Swingshot, HeliPack, Visibomb","Trespasser, Swingshot, HeliPack, ProgBlaster","Trespasser, Swingshot, HeliPack, ProgDevastator","Trespasser, Swingshot, HeliPack, RYNO","Trespasser, Swingshot, ThrusterPack, Visibomb","Trespasser, Swingshot, ThrusterPack, ProgBlaster","Trespasser, Swingshot, ThrusterPack, ProgDevastator","Trespasser, Swingshot, ThrusterPack, RYNO" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Gemlik Base",
+                        "x": "171",
+                        "y": "144",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Golden Weapons",
+                "access_rules": [ "MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, Visibomb","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, ProgBlaster","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, ProgDevastator","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, RYNO","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, Visibomb","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, ProgBlaster","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, ProgDevastator","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, RYNO" ],
+                "sections": [
+                    {
+                        "name": "Golden Weapon 1 - 60,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 2 - 20,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 3 - 60,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 4 - 30,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 5 - 10,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 6 - 20,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 7 - 20,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 8 - 10,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 9 - 10,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 10 - 10,000 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gemlik Base",
+                        "x": "123",
+                        "y": "141",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

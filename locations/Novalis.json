@@ -1,0 +1,167 @@
+[
+    {
+        "name": "Novalis",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Novalis" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "sections": [
+                    {
+                        "name": "2,500 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Novalis",
+                        "x": "257",
+                        "y": "287",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Waterworks",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Novalis",
+                        "x": "376",
+                        "y": "349",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Caves",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "BombGlove", "MineGlove", "Devastator", "Visibomb", "RYNO" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Novalis",
+                        "x": "134",
+                        "y": "353",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Amoeboid Caves",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "HydroPack"],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Novalis",
+                        "x": "47",
+                        "y": "333",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Golden Weapons",
+                "access_rules": [ "MetalDetector, GoldBolt:40" ],
+                "sections": [
+                    {
+                        "name": "Golden Weapon 1 - 60,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 2 - 20,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 3 - 60,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 4 - 30,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 5 - 10,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 6 - 20,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 7 - 20,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 8 - 10,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 9 - 10,000 Bolts",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Weapon 10 - 10,000 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Novalis",
+                        "x": "306",
+                        "y": "279",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Plumber",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Novalis",
+                        "x": "392",
+                        "y": "212",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Chairman",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Novalis",
+                        "x": "276",
+                        "y": "187",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

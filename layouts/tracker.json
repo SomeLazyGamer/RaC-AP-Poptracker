@@ -1,0 +1,73 @@
+{
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#00000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "shared_item_grid_horizontal"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Weapons",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "weapon_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Planets",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "planet_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Settings",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "settings_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "tabbed_maps_horizontal"
+          }
+        }
+      ]
+    }
+  }
+}

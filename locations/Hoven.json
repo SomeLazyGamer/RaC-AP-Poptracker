@@ -1,0 +1,108 @@
+[
+    {
+        "name": "Hoven",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Hoven" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "access_rules": [ "MetalDetector" ],
+                "sections": [
+                    {
+                        "name": "7,500 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "306",
+                        "y": "397",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "In the Water Cave",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": [ "Hydrodisplacer" ],
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "490",
+                        "y": "345",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Moving wall jump",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "438",
+                        "y": "423",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Destroy the Planetbuster",
+                "access_rules": [ "HeliPack, Visibomb","HeliPack, ProgBlaster", "HeliPack, ProgDevastator", "HeliPack, RYNO", "ThrusterPack, Visibomb","ThrusterPack, ProgBlaster", "ThrusterPack, ProgDevastator", "ThrusterPack, RYNO" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "322",
+                        "y": "352",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Edwina's Shop",
+                "access_rules": [ "Hydrodisplacer" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "467",
+                        "y": "69",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Talk to the Miner",
+                "access_rules": [ "HeliPack, Swingshot", "ThrusterPack, Swingshot" ],
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "221",
+                        "y": "454",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

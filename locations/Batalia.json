@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Batalia",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": [ "Batalia" ],
+        "children": [
+            {
+                "name": "Vendor",
+                "access_rules": [ "MetalDetector" ],
+                "sections": [
+                    {
+                        "name": "10,000 Bolts",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "101",
+                        "y": "244",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "HeliPack", "ThrusterPack" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "354",
+                        "y": "284",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "House Roof",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "visibility_rules": [ "Bolt" ],
+                "sections": [
+                    {
+                        "name": "Gold Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "177",
+                        "y": "214",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Ride the grindrail",
+                "sections": [{"item_count": 1}],
+                "access_rules": [ "GrindBoots" ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "326",
+                        "y": "387",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Commando",
+                "sections": [{"item_count": 1}],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "252",
+                        "y": "85",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Shoot down the Bombers",
+                "sections": [{"item_count": 1}],
+                "access_rules": [ "Magneboots" ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "49",
+                        "y": "68",
+                        "size": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

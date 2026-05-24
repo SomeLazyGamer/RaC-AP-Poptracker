@@ -1,0 +1,745 @@
+[
+    {
+        "name": "Solana",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Aridia",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "418",
+                        "y": "572",
+                        "size": 30
+                    }
+                ],
+                "sections": [
+                    
+                    {
+                        "name": "Kill the Sand Sharks",
+                        "ref": "Aridia/Kill the Sand Sharks/"
+                    },
+                    {
+                        "name": "Construction Zone",
+                        "ref": "Aridia/Construction Zone/Reward"
+                    },
+                    {
+                        "name": "Bring Zoomerator to Agent",
+                        "ref": "Aridia/Bring Zoomerator to Agent/"
+                    },
+                    {
+                        "name": "Gold Bolt - Construction Zone",
+                        "ref": "Aridia/Construction Zone/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Laser",
+                        "ref": "Aridia/Laser/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Island",
+                        "ref": "Aridia/Island/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Sandshark Cave",
+                        "ref": "Aridia/Sandshark Cave/Gold Bolt"
+                    }
+                ]
+            },
+            {
+                "name": "Batalia",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 10,000 Bolts",
+                        "ref": "Batalia/Vendor/10,000 Bolts"
+                    },
+                    {
+                        "name": "Batalia - Ride the grindrail",
+                        "ref": "Batalia/Ride the grindrail/"
+                    },
+                    {
+                        "name": "Batalia - Commando",
+                        "ref": "Batalia/Commando/"
+                    },
+                    {
+                        "name": "Batalia - Shoot down the Bombers",
+                        "ref": "Batalia/Shoot down the Bombers/"
+                    },
+                    {
+                        "name": "Gold Bolt - Cliffside",
+                        "ref": "Batalia/Cliffside/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - House Roof",
+                        "ref": "Batalia/House Roof/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "865",
+                        "y": "571",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blarg",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 2,500 Bolts",
+                        "ref": "Blarg/Vendor/2,500 Bolts"
+                    },
+                    {
+                        "name": "Blarg - Outside as Clank",
+                        "ref": "Blarg/Outside as Clank/"
+                    },
+                    {
+                        "name": "Blarg - Destroy the Warship",
+                        "ref": "Blarg/Destroy the Warship/"
+                    },
+                    {
+                        "name": "Blarg - Explore the Space Station",
+                        "ref": "Blarg/Explore the Space Station/"
+                    },
+                    {
+                        "name": "Gold Bolt - Outside",
+                        "ref": "Blarg/Outside/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Cages",
+                        "ref": "Blarg/Cages/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "583",
+                        "y": "383",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Drek's Fleet",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Drek's Fleet - Flagship",
+                        "ref": "Drek's Fleet/Flagship/"
+                    },
+                    {
+                        "name": "Drek's Fleet - Water section",
+                        "ref": "Drek's Fleet/Water section/"
+                    },
+                    {
+                        "name": "Gold Bolt - Water section",
+                        "ref": "Drek's Fleet/Water section Side Path/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Sidepath with robot guards",
+                        "ref": "Drek's Fleet/Sidepath with robot guards/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "230",
+                        "y": "402",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Eudora",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 7,500 Bolts",
+                        "ref": "Eudora/Vendor/7,500 Bolts"
+                    },
+                    {
+                        "name": "Eudora - Robot Lieutenant",
+                        "ref": "Eudora/Robot Lieutenant/"
+                    },
+                    {
+                        "name": "Eudora - Explore the Mills",
+                        "ref": "Eudora/Explore the Mills/"
+                    },
+                    {
+                        "name": "Eudora - Gold Bolt",
+                        "ref": "Eudora/Gold Bolt/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "527",
+                        "y": "487",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Gaspar",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 7,500 Bolts",
+                        "ref": "Gaspar/Vendor/7,500 Bolts"
+                    },
+                    {
+                        "name": "Gaspar - Get the pilot helmet",
+                        "ref": "Gaspar/Get the pilot helmet/"
+                    },
+                    {
+                        "name": "Gold Bolt - Destroy the Bombers",
+                        "ref": "Gaspar/Destroy the Bombers/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Volcano",
+                        "ref": "Gaspar/Volcano/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "960",
+                        "y": "486",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Gemlik",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Gemlik - Defeat Captain Quark",
+                        "ref": "Gemlik/Defeat Captain Quark/"
+                    },
+                    {
+                        "name": "Gold Bolt - Visibomb Hidden Tower",
+                        "ref": "Gemlik/Visibomb Hidden Tower/Gold Bolt"
+                    },
+                    {
+                        "name": "Golden Weapon 1 - 60,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 1 - 60,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 2 - 20,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 2 - 20,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 3 - 60,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 3 - 60,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 4 - 30,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 4 - 30,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 5 - 10,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 5 - 10,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 6 - 20,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 6 - 20,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 7 - 20,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 7 - 20,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 8 - 10,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 8 - 10,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 9 - 10,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 9 - 10,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 10 - 10,000 Bolts",
+                        "ref": "Gemlik/Golden Weapons/Golden Weapon 10 - 10,000 Bolts"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "1008",
+                        "y": "190",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Hoven",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 7,500 Bolts",
+                        "ref": "Hoven/Vendor/7,500 Bolts"
+                    },
+                    {
+                        "name": "Hoven - Destroy the Planetbuster",
+                        "ref": "Hoven/Destroy the Planetbuster/"
+                    },
+                    {
+                        "name": "Hoven - Edwina's Shop",
+                        "ref": "Hoven/Edwina's Shop/"
+                    },
+                    {
+                        "name": "Hoven - Talk to the Miner",
+                        "ref": "Hoven/Talk to the Miner/"
+                    },
+                    {
+                        "name": "Gold Bolt - In the Water Cave",
+                        "ref": "Hoven/In the Water Cave/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Moving wall jump",
+                        "ref": "Hoven/Moving wall jump/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "1101",
+                        "y": "360",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kalebo III",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Grindrail - Helpdesk",
+                        "ref": "Kalebo III/Grindrail/Helpdesk/"
+                    },
+                    {
+                        "name": "Kalebo III - Win the hoverboard race",
+                        "ref": "Kalebo III/Win the hoverboard race/"
+                    },
+                    {
+                        "name": "Gold Bolt - On the Grindrail",
+                        "ref": "Kalebo III/On the Grindrail/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Employee break room",
+                        "ref": "Kalebo III/Employee break room/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "632",
+                        "y": "234",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kerwan",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 2,500 Bolts",
+                        "ref": "Kerwan/Vendor/2,500 Bolts"
+                    },
+                    {
+                        "name": "Kerwan - Fitness Course",
+                        "ref": "Kerwan/Fitness Course/"
+                    },
+                    {
+                        "name": "Kerwan - Al's Roboshack",
+                        "ref": "Kerwan/Al's Roboshack/"
+                    },
+                    {
+                        "name": "Kerwan - Ride the Robot Train",
+                        "ref": "Kerwan/Ride the Robot Train/"
+                    },
+                    {
+                        "name": "Gold Bolt - Underpass",
+                        "ref": "Kerwan/Underpass/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Train Station",
+                        "ref": "Kerwan/Train Station/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Fitness Course Tower",
+                        "ref": "Kerwan/Fitness Course Tower/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "442",
+                        "y": "296",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Novalis",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 2,500 Bolts",
+                        "ref": "Novalis/Vendor/2,500 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 1 - 60,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 1 - 60,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 2 - 20,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 2 - 20,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 3 - 60,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 3 - 60,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 4 - 30,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 4 - 30,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 5 - 10,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 5 - 10,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 6 - 20,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 6 - 20,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 7 - 20,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 7 - 20,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 8 - 10,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 8 - 10,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 9 - 10,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 9 - 10,000 Bolts"
+                    },
+                    {
+                        "name": "Golden Weapon 10 - 10,000 Bolts",
+                        "ref": "Novalis/Golden Weapons/Golden Weapon 10 - 10,000 Bolts"
+                    },
+                    {
+                        "name": "Novalis - Plumber",
+                        "ref": "Novalis/Plumber/"
+                    },
+                    {
+                        "name": "Novalis - Chairman",
+                        "ref": "Novalis/Chairman/"
+                    },
+                    {
+                        "name": "Gold Bolt - Waterworks",
+                        "ref": "Novalis/Waterworks/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Caves",
+                        "ref": "Novalis/Caves/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Amoeboid Caves",
+                        "ref": "Novalis/Amoeboid Caves/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "395",
+                        "y": "424",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Oltanis",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 40,000 Bolts",
+                        "ref": "Oltanis/Vendor/40,000 Bolts"
+                    },
+                    {
+                        "name": "Grindrail path - Scrap Merchant",
+                        "ref": "Oltanis/Scrap Merchant/"
+                    },
+                    {
+                        "name": "Magneboot path - Buy the PDA from Steve",
+                        "ref": "Oltanis/Buy the PDA from Steve/"
+                    },
+                    {
+                        "name": "Swingshot path - Search the city",
+                        "ref": "Oltanis/Search the city/"
+                    },
+                    {
+                        "name": "Grindrail path - Swingshot Upper Ledge",
+                        "ref": "Oltanis/Swingshot Upper Ledge/Gold Bolt"
+                    },
+                    {
+                        "name": "Magneboot path - Ledge near Bomber",
+                        "ref": "Oltanis/Ledge near Bomber/Gold Bolt"
+                    },
+                    {
+                        "name": "Magneboot path - Ledge hang",
+                        "ref": "Oltanis/Ledge hang/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - All Objectives",
+                        "ref": "Oltanis/All Objectives/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "960",
+                        "y": "233",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Orxon",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 15,000 Bolts",
+                        "ref": "Orxon/Vendor/15,000 Bolts"
+                    },
+                    {
+                        "name": "Clank - Traverse the Wilderness",
+                        "ref": "Orxon/Clank - Traverse the Wilderness/"
+                    },
+                    {
+                        "name": "Clank - Search the Labs",
+                        "ref": "Orxon/Clank - Search the Labs/"
+                    },
+                    {
+                        "name": "Orxon - Chase the Infobot",
+                        "ref": "Orxon/Chase the Infobot/"
+                    },
+                    {
+                        "name": "Orxon - Buy the premium nanotech",
+                        "ref": "Orxon/Nanotech Vendor/Buy the premium nanotech"
+                    },
+                    {
+                        "name": "Orxon - Buy the ultra nanotech",
+                        "ref": "Orxon/Nanotech Vendor/Buy the ultra nanotech"
+                    },
+                    {
+                        "name": "Gold Bolt - Return to the Clank section",
+                        "ref": "Orxon/Return to the Clank section/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Long Tunnel",
+                        "ref": "Orxon/Long Tunnel/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "1054",
+                        "y": "613",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pokitaru",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 7,500 Bolts",
+                        "ref": "Pokitaru/Vendor/7,500 Bolts"
+                    },
+                    {
+                        "name": "Pokitaru - Pilot the Ship",
+                        "ref": "Pokitaru/Pilot the Ship/"
+                    },
+                    {
+                        "name": "Pokitaru - Trade Raritanium",
+                        "ref": "Pokitaru/Trade Raritanium/"
+                    },
+                    {
+                        "name": "Pokitaru - Bob's Shop",
+                        "ref": "Pokitaru/Bob's Shop/"
+                    },
+                    {
+                        "name": "Gold Bolt - Waterfalls",
+                        "ref": "Pokitaru/Waterfalls/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "1315",
+                        "y": "443",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Quartu",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Quartu - Giant Clank Fight",
+                        "ref": "Quartu/Giant Clank Fight/"
+                    },
+                    {
+                        "name": "Quartu - Water Path",
+                        "ref": "Quartu/Water Path/"
+                    },
+                    {
+                        "name": "Quartu - Clank's mother",
+                        "ref": "Quartu/Clank's mother/"
+                    },
+                    {
+                        "name": "Gold Bolt - Behind Clank's mother",
+                        "ref": "Quartu/Behind Clank's mother/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Codebot door",
+                        "ref": "Quartu/Codebot door/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "772",
+                        "y": "190",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rilgar",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Vendor - 7,500 Bolts",
+                        "ref": "Rilgar/Vendor/7,500 Bolts"
+                    },
+                    {
+                        "name": "Rilgar - Locate Captain Quark",
+                        "ref": "Rilgar/Locate Captain Quark/"
+                    },
+                    {
+                        "name": "Rilgar - Win the hoverboard race",
+                        "ref": "Rilgar/Win the hoverboard race/"
+                    },
+                    {
+                        "name": "Shady Salesman - 150,000 Bolts",
+                        "ref": "Rilgar/Shady Salesman/150,000 Bolts"
+                    },
+                    {
+                        "name": "Gold Bolt - Maze",
+                        "ref": "Rilgar/Maze/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Sewer Cave",
+                        "ref": "Rilgar/Sewer Cave/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "771",
+                        "y": "489",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Umbris",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Umbris - Defeat the Snagglebeast",
+                        "ref": "Umbris/Defeat the Snagglebeast/"
+                    },
+                    {
+                        "name": "Gold Bolt - Lighthouse puzzle",
+                        "ref": "Umbris/Lighthouse puzzle/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Jumping Down",
+                        "ref": "Umbris/Jumping Down/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "725",
+                        "y": "656",
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Veldin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Veldin - Defeat Drek",
+                        "ref": "Veldin/Defeat Drek/"
+                    },
+                    {
+                        "name": "Gold Bolt - Taunter the horny toad",
+                        "ref": "Veldin/Taunter the horny toad/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Platforms",
+                        "ref": "Veldin/Platforms/Gold Bolt"
+                    },
+                    {
+                        "name": "Gold Bolt - Grindrail",
+                        "ref": "Veldin/Grindrail/Gold Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solana",
+                        "x": "184",
+                        "y": "361",
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+
+]
