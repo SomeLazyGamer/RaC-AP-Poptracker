@@ -14,4 +14,4 @@ If you come across any issues regarding the tracker or any feedback you wish to 
 
 ## Special Thanks
 
-Shoutouts to  [ZobeePlays](https://github.com/ZobeePlays) for making the Solana Galaxy map and for making the initial layout of the tracker and for [Myth197](https://github.com/Myth197) for additional icons and logic assistance!.
+Shoutouts to  [ZobeePlays](https://github.com/ZobeePlays) for making the Solana Galaxy map and for making the initial layout of the tracker and for [Myth197](https://github.com/Myth197) for additional icons and logic assistance!
