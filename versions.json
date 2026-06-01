@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.3",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-AP-Poptracker/releases/download/1.0.3/RaC1_Tracker_SLG_1.0.3.zip",
+			"sha256": "e1e998d5f80a4810f31add92031bc6de2552a8caa1654b57077f041b4b1176fe",
+			"changelog": ["Kalebo Item Fix"]
+		},
+		{
 			"package_version": "1.0.2",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-AP-Poptracker/releases/download/1.0.2/RaC1_Tracker_SLG_1.0.2.zip",
 			"sha256": "788b1731cd84647b3db35e33b47f569e91c5ad7249fdf4ee44bf78e62b0415a3",
