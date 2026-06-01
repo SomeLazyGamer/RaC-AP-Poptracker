@@ -39,7 +39,7 @@ ITEM_MAPPING = {
 	[113] = { { "Gemlik" } },
 	[114] = { { "Oltanis" } },
 	[115] = { { "Quartu" } },
-	[116] = { { "KaleboIII" } },
+	[116] = { { "Kalebo III" } },
 	[117] = { { "Fleet" } },
 	[118] = { { "Veldin" } },
 	 -- Base Weapons 

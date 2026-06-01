@@ -3,7 +3,7 @@
         "name": "Kalebo III",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
-        "access_rules": [ "KaleboIII" ],
+        "access_rules": [ "Kalebo III" ],
         "children": [
             {
                 "name": "On the Grindrail",
