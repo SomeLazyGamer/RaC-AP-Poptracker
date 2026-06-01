@@ -7,6 +7,7 @@
         "children": [
             {
                 "name": "Vendor",
+                "chest_unopened_img": "/images/items/Vendor.png",
                 "access_rules": [ "MetalDetector" ],
                 "sections": [
                     {
@@ -26,7 +27,9 @@
             {
                 "name": "Gold Bolt",
                 "sections": [{"item_count": 1}],
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],
+                "access_rules": [ "HeliPack" ],
                 "map_locations": [
                     {
                         "map": "Eudora",
@@ -38,6 +41,7 @@
             },
             {
                 "name": "Explore the Mills",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "HeliPack" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
@@ -51,6 +55,7 @@
             },
             {
                 "name": "Robot Lieutenant",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "HeliPack, Swingshot, Trespasser" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [

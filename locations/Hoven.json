@@ -7,6 +7,7 @@
         "children": [
             {
                 "name": "Vendor",
+                "chest_unopened_img": "/images/items/Vendor.png",
                 "access_rules": [ "MetalDetector" ],
                 "sections": [
                     {
@@ -25,8 +26,7 @@
             },
             {
                 "name": "In the Water Cave",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "access_rules": [ "Hydrodisplacer" ],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -46,8 +46,7 @@
             },
             {
                 "name": "Moving wall jump",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
                     {
@@ -66,6 +65,7 @@
             },
             {
                 "name": "Destroy the Planetbuster",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "HeliPack, Visibomb","HeliPack, Blaster", "HeliPack, Devastator", "HeliPack, RYNO", "ThrusterPack, Visibomb","ThrusterPack, Blaster", "ThrusterPack, Devastator", "ThrusterPack, RYNO" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
@@ -79,6 +79,7 @@
             },
             {
                 "name": "Edwina's Shop",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "Hydrodisplacer" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
@@ -92,6 +93,7 @@
             },
             {
                 "name": "Talk to the Miner",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "HeliPack, Swingshot", "ThrusterPack, Swingshot" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [

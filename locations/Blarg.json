@@ -7,6 +7,7 @@
         "children": [
             {
                 "name": "Vendor",
+                "chest_unopened_img": "/images/items/Vendor.png",
                 "sections": [
                     {
                         "name": "2,500 Bolts",
@@ -24,6 +25,7 @@
             },
             {
                 "name": "Outside",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],
                 "access_rules": [ "Trespasser, O2Mask"],
                 "sections": [
@@ -43,6 +45,7 @@
             },
             {
                 "name": "Cages",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "access_rules": [ "Swingshot"],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -62,6 +65,7 @@
             },
             {
                 "name": "Outside as Clank",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "Trespasser" ],
                 "sections": [
                     {
@@ -79,6 +83,7 @@
             },
             {
                 "name": "Destroy the Warship",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "sections": [
                     {
                         "item_count": 1
@@ -95,6 +100,7 @@
             },
             {
                 "name": "Explore the Space Station",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "Swingshot"],
                 "sections": [
                     {

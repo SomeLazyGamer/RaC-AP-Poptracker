@@ -7,6 +7,7 @@
         "children": [
             {
                 "name": "Vendor",
+                "chest_unopened_img": "/images/items/Vendor.png",
                 "access_rules": [ "MetalDetector" ],
                 "sections": [
                     {
@@ -25,8 +26,7 @@
             },
             {
                 "name": "Waterfalls",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "access_rules": [ "Swingshot, ThrusterPack" ],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -46,6 +46,7 @@
             },
             {
                 "name": "Pilot the Ship",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "PilotHelmet, ThrusterPack" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
@@ -59,6 +60,7 @@
             },
             {
                 "name": "Trade Raritanium",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "Raritanium, Hydrodisplacer, Trespasser" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
@@ -72,6 +74,7 @@
             },
             {
                 "name": "Bob's Shop",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {

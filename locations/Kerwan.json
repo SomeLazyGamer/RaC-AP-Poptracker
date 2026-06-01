@@ -7,6 +7,7 @@
         "children": [
             {
                 "name": "Vendor",
+                "chest_unopened_img": "/images/items/Vendor.png",
                 "sections": [
                     {
                         "name": "2,500 Bolts",
@@ -24,8 +25,7 @@
             },
             {
                 "name": "Underpass",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
                     {
@@ -44,8 +44,7 @@
             },
             {
                 "name": "Train Station",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "access_rules": [ "HeliPack", "ThrusterPack" ],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -65,8 +64,7 @@
             },
             {
                 "name": "Fitness Course Tower",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],
                 "access_rules": [ "HeliPack"],
                 "sections": [
@@ -86,6 +84,7 @@
             },
             {
                 "name": "Fitness Course",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {
@@ -98,6 +97,7 @@
             },
             {
                 "name": "Al's Roboshack",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {
@@ -110,6 +110,7 @@
             },
             {
                 "name": "Ride the Robot Train",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "HeliPack", "ThrusterPack" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [

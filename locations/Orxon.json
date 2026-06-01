@@ -7,6 +7,7 @@
         "children": [
             {
                 "name": "Vendor",
+                "chest_unopened_img": "/images/items/Vendor.png",
                 "access_rules": [ "MetalDetector" ],
                 "sections": [
                     {
@@ -25,8 +26,7 @@
             },
             {
                 "name": "Return to the Clank section",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "access_rules": [ "O2Mask" ],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -46,8 +46,7 @@
             },
             {
                 "name": "Long Tunnel",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "access_rules": [ "O2Mask, HeliPack, Swingshot, Magneboots, Visibomb" ],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -67,6 +66,7 @@
             },
             {
                 "name": "Clank - Traverse the Wilderness",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {
@@ -79,6 +79,7 @@
             },
             {
                 "name": "Clank - Search the Labs",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {
@@ -91,6 +92,7 @@
             },
             {
                 "name": "Chase the Infobot",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "O2Mask, HeliPack, Swingshot, Magneboots" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
@@ -104,6 +106,7 @@
             },
             {
                 "name": "Nanotech Vendor",
+                "chest_unopened_img": "/images/items/Vendor.png",
                 "sections": [
                     {
                         "name": "Buy the premium nanotech",

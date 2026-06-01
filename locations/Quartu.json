@@ -7,8 +7,7 @@
         "children": [
             {
                 "name": "Behind Clank's mother",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "access_rules": [ "ThrusterPack, Hologuise, Swingshot" ],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -28,8 +27,7 @@
             },
             {
                 "name": "Codebot door",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "access_rules": [ "Codebot, Swingshot" ],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -49,6 +47,7 @@
             },
             {
                 "name": "Giant Clank Fight",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "Swingshot" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
@@ -62,6 +61,7 @@
             },
             {
                 "name": "Water Path",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "O2Mask, HydroPack" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
@@ -75,6 +75,7 @@
             },
             {
                 "name": "Clank's mother",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "ThrusterPack, Hologuise, Swingshot" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [

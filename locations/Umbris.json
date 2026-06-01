@@ -7,8 +7,7 @@
         "children": [
             {
                 "name": "Lighthouse puzzle",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "access_rules": [ "HeliPack, Swingshot"],
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -28,8 +27,7 @@
             },
             {
                 "name": "Jumping Down",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],
                 "access_rules": [ "HeliPack, Swingshot"],
                 "sections": [
@@ -49,6 +47,7 @@
             },
             {
                 "name": "Defeat the Snagglebeast",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "HeliPack, Hydrodisplacer, Swingshot"],
                 "sections": [{"item_count": 1}],
                 "map_locations": [

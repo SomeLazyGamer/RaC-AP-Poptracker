@@ -7,6 +7,7 @@
         "children": [
             {
                 "name": "Vendor",
+                "chest_unopened_img": "/images/items/Vendor.png",
                 "access_rules": [ "MetalDetector" ],
                 "sections": [
                     {
@@ -25,8 +26,7 @@
             },
             {
                 "name": "Cliffside",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],
                 "access_rules": [ "HeliPack", "ThrusterPack" ],
                 "sections": [
@@ -46,8 +46,7 @@
             },
             {
                 "name": "House Roof",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
                     {
@@ -66,6 +65,7 @@
             },
             {
                 "name": "Ride the grindrail",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "sections": [{"item_count": 1}],
                 "access_rules": [ "GrindBoots" ],
                 "map_locations": [
@@ -79,6 +79,7 @@
             },
             {
                 "name": "Commando",
+                "chest_unopened_img": "/images/items/Infobot.png",
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {
@@ -91,6 +92,7 @@
             },
             {
                 "name": "Shoot down the Bombers",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "sections": [{"item_count": 1}],
                 "access_rules": [ "Magneboots" ],
                 "map_locations": [
