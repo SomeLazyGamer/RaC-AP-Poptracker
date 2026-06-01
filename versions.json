@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.2",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-AP-Poptracker/releases/download/1.0.2/RaC1_Tracker_SLG_1.0.2.zip",
+			"sha256": "788b1731cd84647b3db35e33b47f569e91c5ad7249fdf4ee44bf78e62b0415a3",
+			"changelog": ["Minor Logic Fixes & Updated Images"]
+		},
+		{
 			"package_version": "1.0.1",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-AP-Poptracker/releases/download/1.0.1/RaC1_Tracker_SLG_1.0.1.zip",
 			"sha256": "796ef1ae36913819963aa170eb1a245f08076c217f2f4c920da6c2792a697ee6",
