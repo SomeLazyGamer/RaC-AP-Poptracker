@@ -49,6 +49,14 @@
                     {
                         "name": "Gold Bolt - Sandshark Cave",
                         "ref": "Aridia/Sandshark Cave/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Swing It!",
+                        "ref": "Aridia/Swing It!/Traverse final six swingshot targets in factory without touching the ground"
+                    },
+                    {
+                        "name": "Skill Point - Transported",
+                        "ref": "Aridia/Transported/Destroy three flying transports"
                     }
                 ]
             },
@@ -80,6 +88,18 @@
                     {
                         "name": "Gold Bolt - House Roof",
                         "ref": "Batalia/House Roof/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Jumper",
+                        "ref": "Batalia/Jumper/Get through the Grindrail without losing a hit point"
+                    },
+                    {
+                        "name": "Skill Point - Accuracy Counts",
+                        "ref": "Batalia/Accuracy Counts/Destroy a small fighter with the turret"
+                    },
+                    {
+                        "name": "Skill Point - Eat Lead",
+                        "ref": "Batalia/Eat Lead/Use a Sand Mouse to take out all tanks"
                     }
                 ],
                 "map_locations": [
@@ -119,6 +139,10 @@
                     {
                         "name": "Gold Bolt - Cages",
                         "ref": "Blarg/Cages/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Girl Trouble",
+                        "ref": "Blarg/Girl Trouble/Beat the Alien Queen using your wrench only!"
                     }
                 ],
                 "map_locations": [
@@ -150,6 +174,14 @@
                     {
                         "name": "Gold Bolt - Sidepath with robot guards",
                         "ref": "Drek's Fleet/Sidepath with robot guards/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Sneaky",
+                        "ref": "Drek's Fleet/Sneaky/Kill all enemies in Hologuise traversal"
+                    },
+                    {
+                        "name": "Skill Point - Careful Cruise",
+                        "ref": "Drek's Fleet/Careful Cruise/Complete water traversal without losing any hit points"
                     }
                 ],
                 "map_locations": [
@@ -181,6 +213,10 @@
                     {
                         "name": "Eudora - Gold Bolt",
                         "ref": "Eudora/Gold Bolt/"
+                    },
+                    {
+                        "name": "Skill Point - Any Ten",
+                        "ref": "Eudora/Any Ten/Blow up ten vehicles"
                     }
                 ],
                 "map_locations": [
@@ -212,6 +248,14 @@
                     {
                         "name": "Gold Bolt - Volcano",
                         "ref": "Gaspar/Volcano/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Destroyed",
+                        "ref": "Gaspar/Destroyed/Blow up all of the blarg destroyers"
+                    },
+                    {
+                        "name": "Skill Point - Gunner",
+                        "ref": "Gaspar/Gunner/Down five ships with a turret"
                     }
                 ],
                 "map_locations": [
@@ -235,6 +279,10 @@
                     {
                         "name": "Gold Bolt - Visibomb Hidden Tower",
                         "ref": "Gemlik/Visibomb Hidden Tower/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Sitting Ducks",
+                        "ref": "Gemlik/Sitting Ducks/Destroy all cargo ships in the base"
                     },
                     {
                         "name": "Golden Weapon 1 - 60,000 Bolts",
@@ -314,6 +362,14 @@
                     {
                         "name": "Gold Bolt - Moving wall jump",
                         "ref": "Hoven/Moving wall jump/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Pest Control",
+                        "ref": "Hoven/Pest Control/Kill all anklebiters in forested section"
+                    },
+                    {
+                        "name": "Skill Point - Whirlybirds",
+                        "ref": "Hoven/Whirlybirds/Destroy five helicopters with any weapon other than the turret"
                     }
                 ],
                 "map_locations": [
@@ -345,6 +401,14 @@
                     {
                         "name": "Gold Bolt - Employee break room",
                         "ref": "Kalebo III/Employee break room/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Heavy Traffic",
+                        "ref": "Kalebo III/Heavy Traffic/Traverse the long Grindrail without hitting any mines or cars"
+                    },
+                    {
+                        "name": "Skill Point - Magician",
+                        "ref": "Kalebo III/Magician/Attain a tricks score of 4500 or better on hoverboard race"
                     }
                 ],
                 "map_locations": [
@@ -388,6 +452,18 @@
                     {
                         "name": "Gold Bolt - Fitness Course Tower",
                         "ref": "Kerwan/Fitness Course Tower/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Stirke a Pose",
+                        "ref": "Kerwan/Stirke a Pose/Stand between the legs of the Al's Roboshack statue"
+                    },
+                    {
+                        "name": "Skill Point - Blimpy",
+                        "ref": "Kerwan/Blimpy/Take out a blimp, any blimp"
+                    },
+                    {
+                        "name": "Skill Point - Qwarktastic",
+                        "ref": "Kerwan/Qwarktastic/Destroy the Qwarkbot statue"
                     }
                 ],
                 "map_locations": [
@@ -427,6 +503,10 @@
                     {
                         "name": "Gold Bolt - Amoeboid Caves",
                         "ref": "Novalis/Amoeboid Caves/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Take Aim",
+                        "ref": "Novalis/Take Aim/Destroy a fighter or a bomber"
                     },
                     {
                         "name": "Golden Weapon 1 - 60,000 Bolts",
@@ -514,6 +594,14 @@
                     {
                         "name": "Gold Bolt - All Objectives",
                         "ref": "Oltanis/All Objectives/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Shattered Glass",
+                        "ref": "Oltanis/Shattered Glass/Blast all of the streetlights in the city"
+                    },
+                    {
+                        "name": "Skill Point - Blast 'Em!",
+                        "ref": "Oltanis/Blast 'Em!/Destroy three marauding Blarg ships"
                     }
                 ],
                 "map_locations": [
@@ -561,6 +649,14 @@
                     {
                         "name": "Gold Bolt - Long Tunnel",
                         "ref": "Orxon/Long Tunnel/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Sniper",
+                        "ref": "Orxon/Sniper/Shoot a Screamer through sniper hole"
+                    },
+                    {
+                        "name": "Skill Point - Hey, Over Here!",
+                        "ref": "Orxon/Hey, Over Here!/Lure any enemy into a forcefield"
                     }
                 ],
                 "map_locations": [
@@ -596,6 +692,14 @@
                     {
                         "name": "Gold Bolt - Waterfalls",
                         "ref": "Pokitaru/Waterfalls/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Alien Invasion",
+                        "ref": "Pokitaru/Alien Invasion/Shoot down three Blarg saucers with visibombs"
+                    },
+                    {
+                        "name": "Skill Point - Buried Treasure",
+                        "ref": "Pokitaru/Buried Treasure/Find and destroy all crates in the ocean."
                     }
                 ],
                 "map_locations": [
@@ -670,6 +774,18 @@
                     {
                         "name": "Gold Bolt - Sewer Cave",
                         "ref": "Rilgar/Sewer Cave/Gold Bolt"
+                    },
+                    {
+                        "name": "Skill Point - Tricky",
+                        "ref": "Rilgar/Tricky/Do a Twisty McMarx in a hoverboard race"
+                    },
+                    {
+                        "name": "Skill Point - Cluck, Cluck",
+                        "ref": "Rilgar/Cluck, Cluck/Turn a tank into a chicken"
+                    },
+                    {
+                        "name": "Skill Point - Speedy",
+                        "ref": "Rilgar/Speedy/Beat hoverboard challenge in 1:35 or less"
                     }
                 ],
                 "map_locations": [
@@ -728,6 +844,10 @@
                     {
                         "name": "Gold Bolt - Grindrail",
                         "ref": "Veldin/Grindrail/Gold Bolt"
+                    },
+                    {
+                        "name": "Kill ten elite guards on Kyzil Plateau with your wrench only - Going Commando",
+                        "ref": "Veldin/Going Commando/Kill ten elite guards on Kyzil Plateau with your wrench only"
                     }
                 ],
                 "map_locations": [

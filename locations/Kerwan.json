@@ -83,6 +83,66 @@
                 ]
             },
             {
+                "name": "Strike a Pose",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "HeliPack"],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Stand between the legs of the Al's Roboshack statue",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "315",
+                        "y": "288",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Blimpy",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Devastator", "Visibomb" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Take out a blimp, any blimp",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "293",
+                        "y": "320",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Qwarktastic",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Devastator", "Visibomb", "RYNO" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Destroy the Qwarkbot statue",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "242",
+                        "y": "420",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Fitness Course",
                 "chest_unopened_img": "/images/items/Mission.png",
                 "sections": [{"item_count": 1}],

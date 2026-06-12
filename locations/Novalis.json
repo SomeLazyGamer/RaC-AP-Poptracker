@@ -83,6 +83,26 @@
                 ]
             },
             {
+                "name": "Take Aim",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "access_rules": [ "Devastator", "Visibomb" ],
+                "sections": [
+                    {
+                        "name": "Destroy a fighter or a bomber",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Novalis",
+                        "x": "192",
+                        "y": "225",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Golden Weapons",
                 "chest_unopened_img": "/images/items/Vendor.png",
                 "access_rules": [ "MetalDetector, GoldBolt:40" ],

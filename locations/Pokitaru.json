@@ -59,6 +59,45 @@
                 ]
             },
             {
+                "name": "Alien Invasion",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Visibomb" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Shoot down three Blarg saucers with visibombs",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "234",
+                        "y": "376",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Buried Treasure",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Find and destroy all crates in the ocean.",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "229",
+                        "y": "246",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Trade Raritanium",
                 "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "Raritanium, Hydrodisplacer, Trespasser" ],

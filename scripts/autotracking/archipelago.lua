@@ -21,6 +21,89 @@ GLOBAL_ITEMS = {}
 SLOT_DATA = {}
 OBTAINED_ITEMS = {}
 
+PROGRESSIVE_PACKS = {
+  [2] = "HeliPack",
+  [3] = "ThrusterPack",
+  [4] = "HydroPack"
+}
+PROG_PACK_ORDER = nil
+PROGRESSIVE_HELMETS = {
+  [5] = "SonicSummoner",
+  [6] = "O2Mask",
+  [7] = "PilotHelmet"
+}
+PROG_HELMET_ORDER = nil
+PROGRESSIVE_HOVERBOARD = {
+  [30] = "Hoverboard",
+  [48] = "Zoomerator"
+}
+PROG_HOVER_ORDER = nil
+PROGRESSIVE_BOOTS = {
+  [28] = "Magneboots",
+  [29] = "GrindBoots"
+}
+PROG_BOOTS_ORDER = nil
+PROGRESSIVE_TRADE = {
+  [35] = "Persuader",
+  [49] = "Raritanium"
+}
+PROG_TRADE_ORDER = nil
+PROGRESSIVE_NANO = {
+  [52] = "PremiumNanotech",
+  [53] = "UltraNanotech"
+}
+PROG_NANO_ORDER = nil
+PROGRESSIVE_BOMB = {
+  [10] = "BombGlove",
+  [310] = "GoldBombGlove"
+}
+PROG_BOMB_ORDER = nil
+PROGRESSIVE_BLAST = {
+  [15] = "Blaster",
+  [315] = "GoldBlaster"
+}
+PROG_BLAST_ORDER = nil
+PROGRESSIVE_SUCK = {
+  [9] = "SuckCannon",
+  [309] = "GoldSuckCannon"
+}
+PROG_SUCK_ORDER = nil
+PROGRESSIVE_PYRO = {
+  [16] = "Pyrocitor",
+  [316] = "GoldPyrocitor"
+}
+PROG_PYRO_ORDER = nil
+PROGRESSIVE_DOOM = {
+  [10] = "GloveofDoom",
+  [310] = "GoldGloveofDoom"
+}
+PROG_DOOM_ORDER = nil
+PROGRESSIVE_MINE = {
+  [17] = "MineGlove",
+  [317] = "GoldMineGlove"
+}
+PROG_MINE_ORDER = nil
+PROGRESSIVE_DEV = {
+  [11] = "Devastator",
+  [311] = "GoldDevastator"
+}
+PROG_DEV_ORDER = nil
+PROGRESSIVE_DECOY = {
+  [25] = "DecoyGlove",
+  [325] = "GoldDecoyGlove"
+}
+PROG_DECOY_ORDER = nil
+PROGRESSIVE_TESLA = {
+  [19] = "TeslaClaw",
+  [319] = "GoldTeslaClaw"
+}
+PROG_TESLA_ORDER = nil
+PROGRESSIVE_MORPH = {
+  [21] = "Morph-o-Ray",
+  [321] = "GoldMorph-o-Ray"
+}
+PROG_MORPH_ORDER = nil
+
 -- gets the data storage key for hints for the current player
 -- returns nil when not connected to AP
 function getHintDataStorageKey()
@@ -101,6 +184,22 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 -- put any code here that slot_data should affect (toggling setting items for example)
+	PROG_PACK_ORDER = slot_data["progressive_packs_order"]
+	PROG_HELMET_ORDER = slot_data["progressive_helmets_order"]
+	PROG_BOOTS_ORDER = slot_data["progressive_boots_order"]
+	PROG_HOVER_ORDER = slot_data["progressive_hoverboard_order"]
+	PROG_TRADE_ORDER = slot_data["progressive_raritanium_order"]
+	PROG_NANO_ORDER = slot_data["progressive_nanotech_order"]
+	PROG_BOMB_ORDER = slot_data["progressive_bomb_glove_order"]
+	PROG_PYRO_ORDER = slot_data["progressive_pyrocitor_order"]
+	PROG_BLAST_ORDER = slot_data["progressive_blaster_order"]
+	PROG_DOOM_ORDER = slot_data["progressive_glove_of_doom_order"]
+	PROG_MINE_ORDER = slot_data["progressive_mine_glove_order"]
+	PROG_SUCK_ORDER = slot_data["progressive_suck_cannon_order"]
+	PROG_DEV_ORDER = slot_data["progressive_devastator_order"]
+	PROG_DECOY_ORDER = slot_data["progressive_decoy_glove_order"]
+	PROG_TESLA_ORDER = slot_data["progressive_tesla_claw_order"]
+	PROG_MORPH_ORDER = slot_data["progressive_morph_o_ray_order"]
 end
 
 function onClear(slot_data)
@@ -178,7 +277,6 @@ function onClear(slot_data)
 	if PopVersion >= "0.32.0" then
 		data_strorage_keys = { getHintDataStorageKey() }
 	end
-	    table.insert(data_strorage_keys, "rac3_current_planet_"..Archipelago.PlayerNumber.."_"..Archipelago.TeamNumber)
 	-- subscribes to the data storage keys for updates
 	-- triggers callback in the SetNotify handler on update
 	Archipelago:SetNotify(data_strorage_keys)
@@ -187,6 +285,106 @@ function onClear(slot_data)
 	Archipelago:Get(data_strorage_keys)
   Tracker.BulkUpdate = false
 
+end
+
+function handleProgressiveOptions(item_code)
+
+	if item_code == "ProgPack" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local pack = PROGRESSIVE_PACKS[PROG_PACK_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, pack))
+    	Tracker:FindObjectForCode(pack).Active = true
+	end
+	if item_code == "ProgHelmet" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local hat = PROGRESSIVE_HELMETS[PROG_HELMET_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, hat))
+    	Tracker:FindObjectForCode(hat).Active = true
+	end
+	if item_code == "ProgBoots" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local boot = PROGRESSIVE_BOOTS[PROG_BOOTS_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, boot))
+    	Tracker:FindObjectForCode(boot).Active = true
+	end
+	if item_code == "ProgHover" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local hover = PROGRESSIVE_HOVERBOARD[PROG_HOVER_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, hover))
+    	Tracker:FindObjectForCode(hover).Active = true
+	end
+	if item_code == "ProgTrade" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local trade = PROGRESSIVE_TRADE[PROG_TRADE_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, trade))
+    	Tracker:FindObjectForCode(trade).Active = true
+	end
+	if item_code == "ProgNano" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local nano = PROGRESSIVE_NANO[PROG_NANO_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, nano))
+    	Tracker:FindObjectForCode(nano).Active = true
+	end
+	if item_code == "ProgBomb" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local bomb = PROGRESSIVE_BOMB[PROG_BOMB_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, bomb))
+    	Tracker:FindObjectForCode(bomb).Active = true
+	end
+	if item_code == "ProgBlast" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local blast = PROGRESSIVE_BLAST[PROG_BLAST_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, blast))
+    	Tracker:FindObjectForCode(blast).Active = true
+	end
+	if item_code == "ProgPyro" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local pyro = PROGRESSIVE_PYRO[PROG_PYRO_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, pyro))
+    	Tracker:FindObjectForCode(pyro).Active = true
+	end
+	if item_code == "ProgDoom" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local doom = PROGRESSIVE_DOOM[PROG_DOOM_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, doom))
+    	Tracker:FindObjectForCode(doom).Active = true
+	end
+	if item_code == "ProgMine" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local mine = PROGRESSIVE_MINE[PROG_MINE_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, mine))
+    	Tracker:FindObjectForCode(mine).Active = true
+	end
+	if item_code == "ProgSuck" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local suck = PROGRESSIVE_SUCK[PROG_SUCK_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, suck))
+    	Tracker:FindObjectForCode(suck).Active = true
+	end
+	if item_code == "ProgDev" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local dev = PROGRESSIVE_DEV[PROG_DEV_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, dev))
+    	Tracker:FindObjectForCode(dev).Active = true
+	end
+	if item_code == "ProgDecoy" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local decoy = PROGRESSIVE_DECOY[PROG_DECOY_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, decoy))
+    	Tracker:FindObjectForCode(decoy).Active = true
+	end
+	if item_code == "ProgTesla" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local tesla = PROGRESSIVE_TELSA[PROG_TESLA_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, tesla))
+    	Tracker:FindObjectForCode(tesla).Active = true
+	end
+	if item_code == "ProgMorph" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local morph = PROGRESSIVE_MORPH[PROG_MORPH_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, morph))
+    	Tracker:FindObjectForCode(morph).Active = true
+	end
 end
 
 -- called when an item gets collected
@@ -216,6 +414,7 @@ function onItem(index, item_id, item_name, player_number)
 			local multiplier = item_table[3] or 1
 			if item_code then
 				incrementItem(item_code, item_type, multiplier)
+				handleProgressiveOptions(item_code)
 				-- keep track which items we touch are local and which are global
 				if is_local then
 					if LOCAL_ITEMS[item_code] then

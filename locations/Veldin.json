@@ -65,6 +65,25 @@
                 ]
             },
             {
+                "name": "Going Commando",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Kill ten elite guards on Kyzil Plateau with your wrench only",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Veldin",
+                        "x": "241",
+                        "y": "160",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Defeat Drek",
                 "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "Swingshot" ],

@@ -46,6 +46,46 @@
                 ]
             },
             {
+                "name": "Careful Cruise",
+                "access_rules": [ "Hydropack, O2Mask"],
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Complete water traversal without losing any hit points",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Drek's Fleet",
+                        "x": "247",
+                        "y": "260",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Sneaky",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "access_rules": [ "Swingshot, Hologuise"],
+                "sections": [
+                    {
+                        "name": "Kill all enemies in Hologuise traversal",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Drek's Fleet",
+                        "x": "56",
+                        "y": "104",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Flagship",
                 "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "PilotHelmet, Magneboots, Swingshot, Hologuise"],

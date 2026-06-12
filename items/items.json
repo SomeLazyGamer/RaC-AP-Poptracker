@@ -54,6 +54,104 @@
     "codes": "HydroPack"
   },
   {
+      "name": "Progressive Pack",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Progressive Pack 1",
+              "codes": "ProgPack1"
+          },
+          {
+              "name": "Progressive Pack 2",
+              "codes": "ProgPack2"
+          },
+          {
+              "name": "Progressive Pack 3",
+              "codes": "ProgPack3"
+          }
+        ],
+        "codes": "ProgPack"
+  },
+  {
+      "name": "Progressive Helmet",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Progressive Helmet 1",
+              "codes": "ProgHelmet1"
+          },
+          {
+              "name": "Progressive Helmet 2",
+              "codes": "ProgHelmet2"
+          },
+          {
+              "name": "Progressive Helmet 3",
+              "codes": "ProgHelmet3"
+          }
+        ],
+        "codes": "ProgHelmet"
+  },
+  {
+      "name": "Progressive Boots",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Progressive Boots 1",
+              "codes": "ProgBoots1"
+          },
+          {
+              "name": "Progressive Boots 2",
+              "codes": "ProgBoots2"
+          }
+        ],
+        "codes": "ProgBoots"
+  },
+  {
+      "name": "Progressive Hoverboard",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Progressive Hoverboard 1",
+              "codes": "ProgHover1"
+          },
+          {
+              "name": "Progressive Hoverboard 2",
+              "codes": "ProgHover2"
+          }
+        ],
+        "codes": "ProgHover"
+  },
+  {
+      "name": "Progressive Trade",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Progressive Trade 1",
+              "codes": "ProgTrade1"
+          },
+          {
+              "name": "Progressive Trade 2",
+              "codes": "ProgTrade2"
+          }
+        ],
+        "codes": "ProgTrade"
+  },
+  {
+      "name": "Progressive Nanotech",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Progressive Nanotech 1",
+              "codes": "ProgNano1"
+          },
+          {
+              "name": "Progressive Nanotech 2",
+              "codes": "ProgNano2"
+          }
+        ],
+        "codes": "ProgNano"
+  },
+  {
     "name": "O2 Mask",
     "type": "toggle",
     "img": "images/items/O2Mask.png",
@@ -246,89 +344,139 @@
     "codes": "Veldin"
   },
   {
+    "name": "Bomb Glove",
+    "type": "toggle",
+    "img": "images/items/BombGlove.png",
+    "codes": "BombGlove"
+  },
+  {
+    "name": "Gold Bomb Glove",
+    "type": "toggle",
+    "img": "images/items/GoldBombGlove.png",
+    "codes": "GoldBombGlove"
+  },
+  {
       "name": "Progressive Bomb Glove",
       "type": "progressive",
       "stages": [
           {
-              "name": "Bomb Glove",
-              "img": "images/items/BombGlove.png",
-              "codes": "BombGlove"
+              "name": "Bomb1",
+              "codes": "ProgBomb1"
           },
           {
-              "name": "Gold Bomb Glove",
-              "img": "images/items/GoldBombGlove.png",
-              "codes": "GoldBombGlove"
+              "name": "Bomb2",
+              "codes": "ProgBomb2"
           }
       ],
-      "codes": "ProgBombGlove"
+      "codes": "ProgBomb"
+  },
+  {
+    "name": "Pyrocitor",
+    "type": "toggle",
+    "img": "images/items/Pyrocitor.png",
+    "codes": "Pyrocitor"
+  },
+  {
+    "name": "Gold Pyrocitor",
+    "type": "toggle",
+    "img": "images/items/GoldPyrocitor.png",
+    "codes": "GoldPyrocitor"
   },
   {
       "name": "Progressive Pyrocitor",
       "type": "progressive",
       "stages": [
           {
-              "name": "Pyrocitor",
-              "img": "images/items/Pyrocitor.png",
-              "codes": "Pyrocitor"
+              "name": "Pyro",
+              "codes": "ProgPyro1"
           },
           {
-              "name": "Gold Pyrocitor",
-              "img": "images/items/GoldPyrocitor.png",
-              "codes": "GoldPyrocitor"
+              "name": "Bomb2",
+              "codes": "ProgBomb2"
           }
-        ],
-        "codes": "ProgPyrocitor"
+      ],
+      "codes": "ProgPyro"
+  },
+  {
+    "name": "Blaster",
+    "type": "toggle",
+    "img": "images/items/Blaster.png",
+    "codes": "Blaster"
+  },
+  {
+    "name": "Gold Blaster",
+    "type": "toggle",
+    "img": "images/items/GoldBlaster.png",
+    "codes": "GoldBlaster"
   },
   {
       "name": "Progressive Blaster",
       "type": "progressive",
       "stages": [
           {
-              "name": "Blaster",
-              "img": "images/items/Blaster.png",
-              "codes": "Blaster"
+              "name": "Blast",
+              "codes": "ProgBlast1"
           },
           {
-              "name": "Gold Blaster",
-              "img": "images/items/GoldBlaster.png",
-              "codes": "GoldBlaster"
+              "name": "Blast2",
+              "codes": "ProgBlast2"
           }
       ],
-      "codes": "ProgBlaster"
+      "codes": "ProgBlast"
+  },
+  {
+    "name": "Glove of Doom",
+    "type": "toggle",
+    "img": "images/items/GloveofDoom.png",
+    "codes": "GloveofDoom"
+  },
+  {
+    "name": "Gold Glove of Doom",
+    "type": "toggle",
+    "img": "images/items/GoldGloveofDoom.png",
+    "codes": "GoldGloveofDoom"
   },
   {
       "name": "Progressive Glove of Doom",
       "type": "progressive",
       "stages": [
           {
-              "name": "Glove of Doom",
-              "img": "images/items/GloveofDoom.png",
-              "codes": "GloveofDoom"
+              "name": "Doom1",
+              "codes": "ProgDoom1"
           },
           {
-              "name": "Gold Glove of Doom",
-              "img": "images/items/GoldGloveofDoom.png",
-              "codes": "GoldGloveofDoom"
+              "name": "Doom2",
+              "codes": "ProgDoom2"
           }
       ],
-      "codes": "ProgGloveofDoom"
+      "codes": "ProgDoom"
+  },
+  {
+    "name": "Mine Glove",
+    "type": "toggle",
+    "img": "images/items/MineGlove.png",
+    "codes": "MineGlove"
+  },
+  {
+    "name": "Gold Mine Glove",
+    "type": "toggle",
+    "img": "images/items/GoldMineGlove.png",
+    "codes": "GoldMineGlove"
   },
   {
       "name": "Progressive Mine Glove",
       "type": "progressive",
       "stages": [
           {
-              "name": "Mine Glove",
-              "img": "images/items/MineGlove.png",
-              "codes": "MineGlove"
+              "name": "Mine1",
+              "codes": "ProgMine1"
           },
           {
-              "name": "Gold Mine Glove",
-              "img": "images/items/GoldMineGlove.png",
-              "codes": "GoldMineGlove"
+              "name": "Mine2",
+              "codes": "ProgMine2"
           }
       ],
-      "codes": "ProgMineGlove"
+      "codes": "ProgMine"
   },
   {
     "name": "Taunter",
@@ -336,40 +484,60 @@
     "img": "images/items/Taunter.png",
     "codes": "Taunter"
   },
-    {
-        "name": "Progressive Suck Cannon",
-        "type": "progressive",
-        "stages": [
             {
                 "name": "Suck Cannon",
+    "type": "toggle",
                 "img": "images/items/SuckCannon.png",
                 "codes": "SuckCannon"
             },
             {
                 "name": "Gold Suck Cannon",
+    "type": "toggle",
                 "img": "images/items/GoldSuckCannon.png",
                 "codes": "GoldSuckCannon"
-            }
-        ],
-        "codes": "ProgSuckCannon"
-    },
-    {
-        "name": "Progressive Devastator",
-        "type": "progressive",
-        "stages": [
+            },
+  {
+      "name": "Progressive Suck Cannon",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Suck1",
+              "codes": "ProgSuck1"
+          },
+          {
+              "name": "Suck2",
+              "codes": "ProgSuck2"
+          }
+      ],
+      "codes": "ProgSuck"
+  },
             {
                 "name": "Devastator",
+    "type": "toggle",
                 "img": "images/items/Devastator.png",
                 "codes": "Devastator"
             },
             {
                 "name": "Gold Devastator",
+    "type": "toggle",
                 "img": "images/items/GoldDevastator.png",
                 "codes": "GoldDevastator"
-            }
-        ],
-        "codes": "ProgDevastator"
-    },
+            },
+  {
+      "name": "Progressive Devastator",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Dev1",
+              "codes": "ProgDev1"
+          },
+          {
+              "name": "Dev2",
+              "codes": "ProgDev2"
+          }
+      ],
+      "codes": "ProgDev"
+  },
   {
     "name": "Walloper",
     "type": "toggle",
@@ -382,63 +550,93 @@
     "img": "images/items/Visibomb.png",
     "codes": "Visibomb"
   },
-    {
-        "name": "Progressive Decoy Glove",
-        "type": "progressive",
-        "stages": [
             {
                 "name": "Decoy Glove",
+    "type": "toggle",
                 "img": "images/items/DecoyGlove.png",
                 "codes": "DecoyGlove"
             },
             {
                 "name": "Gold Decoy Glove",
+    "type": "toggle",
                 "img": "images/items/GoldDecoyGlove.png",
                 "codes": "GoldDecoyGlove"
-            }
-        ],
-        "codes": "ProgDecoyGlove"
-    },
+            },
+  {
+      "name": "Progressive Decoy Glove",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Decoy1",
+              "codes": "ProgDecoy1"
+          },
+          {
+              "name": "Decoy2",
+              "codes": "ProgDecoy2"
+          }
+      ],
+      "codes": "ProgDecoy"
+  },
   {
     "name": "Drone Device",
     "type": "toggle",
     "img": "images/items/DroneDevice.png",
     "codes": "DroneDevice"
   },
-    {
-        "name": "Progressive Tesla Claw",
-        "type": "progressive",
-        "stages": [
             {
                 "name": "Tesla Claw",
+    "type": "toggle",
                 "img": "images/items/TeslaClaw.png",
                 "codes": "TeslaClaw"
             },
             {
                 "name": "Gold Tesla Claw",
+    "type": "toggle",
                 "img": "images/items/GoldTeslaClaw.png",
                 "codes": "GoldTeslaClaw"
-            }
-        ],
-        "codes": "ProgTeslaClaw"
-    },
-    {
-        "name": "Progressive Morph-o-Ray",
-        "type": "progressive",
-        "stages": [
+            },
+  {
+      "name": "Progressive Tesla Claw",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Tesla1",
+              "codes": "ProgTesla1"
+          },
+          {
+              "name": "Tesla2",
+              "codes": "ProgTesla2"
+          }
+      ],
+      "codes": "ProgTesla"
+  },
             {
                 "name": "Morph-o-Ray",
+    "type": "toggle",
                 "img": "images/items/Morph-o-Ray.png",
                 "codes": "Morph-o-Ray"
             },
             {
                 "name": "Gold Morph-o-Ray",
+    "type": "toggle",
                 "img": "images/items/GoldMorph-o-Ray.png",
                 "codes": "GoldMorph-o-Ray"
-            }
-        ],
-        "codes": "ProgMorph-o-Ray"
-    },
+            },
+  {
+      "name": "Progressive Morph-o-Ray",
+      "type": "progressive",
+      "stages": [
+          {
+              "name": "Morph1",
+              "codes": "ProgMorph1"
+          },
+          {
+              "name": "Morph2",
+              "codes": "ProgMorph2"
+          }
+      ],
+      "codes": "ProgMorph"
+  },
   {
     "name": "R.Y.N.O.",
     "type": "toggle",
@@ -469,5 +667,20 @@
         "codes": "BoltSanity,Bolt"
       }
     ]
+  },
+  {
+    "name": "ShortRanged",
+    "type": "toggle",
+    "codes": "RYNO"
+  },
+  {
+    "name": "MedRanged",
+    "type": "toggle",
+    "codes": "RYNO"
+  },
+  {
+    "name": "LongRanged",
+    "type": "toggle",
+    "codes": "RYNO"
   }
 ]

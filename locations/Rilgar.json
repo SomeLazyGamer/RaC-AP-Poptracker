@@ -84,6 +84,66 @@
                 ]
             },
             {
+                "name": "Tricky",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "HeliPack, Hoverboard, Zoomerator", "ThrusterPack, Hoverboard, Zoomerator" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Do a Twisty McMarx in a hoverboard race",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "293",
+                        "y": "264",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Cluck, Cluck",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Morph-o-Ray" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Turn a tank into a chicken",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "427",
+                        "y": "425",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Speedy",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "HeliPack, Hoverboard", "ThrusterPack, Hoverboard" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Beat hoverboard challenge in 1:35 or less",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "222",
+                        "y": "264",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Locate Captain Quark",
                 "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "HeliPack, Hydrodisplacer, Swingshot", "ThrusterPack, Hydrodisplacer, Swingshot" ],

@@ -65,6 +65,46 @@
                 ]
             },
             {
+                "name": "Sniper",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "O2Mask, HeliPack, Devastator", "O2Mask, HeliPack, Visabomb", "O2Mask, HeliPack, Blaster" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Shoot a Screamer through sniper hole",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "133",
+                        "y": "159",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Hey, Over Here!",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "O2Mask, HeliPack, Swingshot, Magneboots, Taunter" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Lure any enemy into a forcefield",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "339",
+                        "y": "110",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Clank - Traverse the Wilderness",
                 "chest_unopened_img": "/images/items/Infobot.png",
                 "sections": [{"item_count": 1}],

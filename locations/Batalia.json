@@ -64,6 +64,66 @@
                 ]
             },
             {
+                "name": "Accuracy Counts",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "access_rules": [ "Magneboots" ],
+                "sections": [
+                    {
+                        "name": "Destroy a small fighter with the turret",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "49",
+                        "y": "68",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Eat Lead",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "access_rules": [ "SonicSummoner, Magneboots" ],
+                "sections": [
+                    {
+                        "name": "Use a Sand Mouse to take out all tanks",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "115",
+                        "y": "67",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Jumper",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "access_rules": [ "GrindBoots" ],
+                "sections": [
+                    {
+                        "name": "Get through the Grindrail without losing a hit point",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "359",
+                        "y": "369",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Ride the grindrail",
                 "chest_unopened_img": "/images/items/Infobot.png",
                 "sections": [{"item_count": 1}],
@@ -98,8 +158,8 @@
                 "map_locations": [
                     {
                         "map": "Batalia",
-                        "x": "49",
-                        "y": "68",
+                        "x": "48",
+                        "y": "38",
                         "size": 14
                     }
                 ]

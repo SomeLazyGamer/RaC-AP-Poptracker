@@ -15,29 +15,43 @@
             "h_alignment": "left",
             "item_h_alignment": "center",
             "item_v_alignment": "center",
-            "item_height": 50,
-            "item_width": 50,
+            "item_height": 30,
+            "item_width": 30,
             "rows": [
               [
-                "ProgBombGlove",
-                "ProgPyrocitor",
-                "ProgBlaster",
-                "ProgGloveofDoom",
-                "ProgMineGlove"
+                "BombGlove",
+                "Pyrocitor",
+                "Blaster",
+                "GloveofDoom",
+                "MineGlove"
               ],
               [
                 "Taunter",
-                "ProgSuckCannon",
-                "ProgDevastator",
+                "SuckCannon",
+                "Devastator",
                 "Walloper",
                 "Visibomb"
               ],
               [
-                "ProgDecoyGlove",
+                "DecoyGlove",
                 "DroneDevice",
-                "ProgTeslaClaw",
-                "ProgMorph-o-Ray",
+                "TeslaClaw",
+                "Morph-o-Ray",
                 "RYNO"
+              ],
+              [
+                "GoldBombGlove",
+                "GoldPyrocitor",
+                "GoldBlaster",
+                "GoldGloveofDoom",
+                "GoldMineGlove"
+              ],
+              [
+                "GoldSuckCannon",
+                "GoldDevastator",
+                "GoldDecoyGlove",
+                "GoldTeslaClaw",
+                "GoldMorph-o-Ray"
               ]
             ]
           }

@@ -46,6 +46,47 @@
                 ]
             },
             {
+                "name": "Magician",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "HeliPack, Grindboots, Swingshot, Hoverboard, SuckCannon", "HeliPack, Grindboots, Swingshot, Hoverboard, Pyrocitor", "HeliPack, Grindboots, Swingshot, Hoverboard, Blaster", "HeliPack, Grindboots, Swingshot, Hoverboard, TeslaClaw", "HeliPack, Grindboots, Swingshot, Hoverboard, RYNO", "HeliPack, Grindboots, Swingshot, Hoverboard, Devastator", "HeliPack, Grindboots, Swingshot, Hoverboard, Visibomb",
+            "ThrusterPack, Grindboots, Swingshot, Hoverboard, SuckCannon", "ThrusterPack, Grindboots, Swingshot, Hoverboard, Pyrocitor", "ThrusterPack, Grindboots, Swingshot, Hoverboard, Blaster", "ThrusterPack, Grindboots, Swingshot, Hoverboard, TeslaClaw", "ThrusterPack, Grindboots, Swingshot, Hoverboard, RYNO", "ThrusterPack, Grindboots, Swingshot, Hoverboard, Devastator", "ThrusterPack, Grindboots, Swingshot, Hoverboard, Visibomb"   ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Attain a tricks score of 4500 or better on hoverboard race",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "62",
+                        "y": "132",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Heay Traffic",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Grindboots" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Traverse the long Grindrail without hitting any mines or cars",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "415",
+                        "y": "250",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Helpdesk",
                 "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "Grindboots" ],
@@ -62,7 +103,8 @@
             {
                 "name": "Win the hoverboard race",
                 "chest_unopened_img": "/images/items/Mission.png",
-                "access_rules": [ "Grindboots, Swingshot, Hoverboard" ],
+                "access_rules": [ "HeliPack, Grindboots, Swingshot, Hoverboard, SuckCannon", "HeliPack, Grindboots, Swingshot, Hoverboard, Pyrocitor", "HeliPack, Grindboots, Swingshot, Hoverboard, Blaster", "HeliPack, Grindboots, Swingshot, Hoverboard, TeslaClaw", "HeliPack, Grindboots, Swingshot, Hoverboard, RYNO", "HeliPack, Grindboots, Swingshot, Hoverboard, Devastator", "HeliPack, Grindboots, Swingshot, Hoverboard, Visibomb",
+            "ThrusterPack, Grindboots, Swingshot, Hoverboard, SuckCannon", "ThrusterPack, Grindboots, Swingshot, Hoverboard, Pyrocitor", "ThrusterPack, Grindboots, Swingshot, Hoverboard, Blaster", "ThrusterPack, Grindboots, Swingshot, Hoverboard, TeslaClaw", "ThrusterPack, Grindboots, Swingshot, Hoverboard, RYNO", "ThrusterPack, Grindboots, Swingshot, Hoverboard, Devastator", "ThrusterPack, Grindboots, Swingshot, Hoverboard, Visibomb"   ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {

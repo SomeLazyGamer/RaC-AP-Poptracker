@@ -64,9 +64,49 @@
                 ]
             },
             {
+                "name": "Pest Control",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Kill all anklebiters in forested section",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "422",
+                        "y": "402",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Whirlybirds",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Devastator", "Visibomb" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Destroy five helicopters with any weapon other than the turret",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "381",
+                        "y": "356",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Destroy the Planetbuster",
                 "chest_unopened_img": "/images/items/Infobot.png",
-                "access_rules": [ "HeliPack, Visibomb","HeliPack, Blaster", "HeliPack, Devastator", "HeliPack, RYNO", "ThrusterPack, Visibomb","ThrusterPack, Blaster", "ThrusterPack, Devastator", "ThrusterPack, RYNO" ],
+                "access_rules": [ "HeliPack, Visibomb","HeliPack, Blaster", "HeliPack, Devastator", "HeliPack, RYNO", 
+                "ThrusterPack, Visibomb","ThrusterPack, Blaster", "ThrusterPack, Devastator", "ThrusterPack, RYNO" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {

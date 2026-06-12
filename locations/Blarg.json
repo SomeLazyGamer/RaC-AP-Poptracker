@@ -64,6 +64,26 @@
                 ]
             },
             {
+                "name": "Girl Trouble",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Swingshot"],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Beat the Alien Queen using your wrench only!",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "146",
+                        "y": "124",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Outside as Clank",
                 "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "Trespasser" ],

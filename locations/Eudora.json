@@ -40,6 +40,26 @@
                 ]
             },
             {
+                "name": "Any Ten",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "SuckCannon", "Blaster", "Pyrocitor", "TeslaClaw", "Devastator", "Visibomb", "RYNO" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Blow up ten vehicles ",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eudora",
+                        "x": "356",
+                        "y": "284",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Explore the Mills",
                 "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "HeliPack" ],

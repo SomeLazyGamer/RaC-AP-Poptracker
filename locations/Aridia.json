@@ -7,6 +7,7 @@
         "children": [
             {
                 "name": "Construction Zone",
+                "chest_unopened_img": "/images/items/Mission.png",
                 "access_rules": [ "Swingshot" ],
                 "sections": [
                     {
@@ -84,6 +85,46 @@
                         "map": "Aridia",
                         "x": "253",
                         "y": "431",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Transported",
+                "visibility_rules": [ "AmondoTrap" ],
+                "access_rules": [ "SuckCannon", "Blaster", "Pyrocitor", "TeslaClaw", "Devastator", "Visibomb", "RYNO" ],
+                "chest_unopened_img": "/images/items/Skill.png",
+                "sections": [
+                    {
+                        "name": "Destroy three flying transports ",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aridia",
+                        "x": "302",
+                        "y": "292",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Swing It!",
+                "visibility_rules": [ "AmondoTrap" ],
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Swingshot" ],
+                "sections": [
+                    {
+                        "name": "Traverse final six swingshot targets in factory without touching the ground ",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aridia",
+                        "x": "76",
+                        "y": "134",
                         "size": 14
                     }
                 ]

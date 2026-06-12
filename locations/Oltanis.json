@@ -85,6 +85,46 @@
                 ]
             },
             {
+                "name": "Shattered Glass",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Devastator, Swingshot", "Visibomb", "Swingshot, Magneboots, Grindboots" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Blast all of the streetlights in the city",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "309",
+                        "y": "299",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Blast 'Em!",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "access_rules": [ "Devastator", "Visibomb" ],
+                "sections": [
+                    {
+                        "name": "Destroy three marauding Blarg ships",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "262",
+                        "y": "258",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "All Objectives",
                 "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],

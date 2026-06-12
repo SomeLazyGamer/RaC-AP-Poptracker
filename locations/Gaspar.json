@@ -65,6 +65,45 @@
                 ]
             },
             {
+                "name": "Destroyed",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "access_rules": [ "Swingshot" ],
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Blow up all of the blarg destroyers",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "426",
+                        "y": "337",
+                        "size": 14
+                    }
+                ]
+            },
+            {
+                "name": "Gunner",
+                "chest_unopened_img": "/images/items/Skill.png",
+                "visibility_rules": [ "AmondoTrap" ],
+                "sections": [
+                    {
+                        "name": "Down five ships with a turret",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "283",
+                        "y": "154",
+                        "size": 14
+                    }
+                ]
+            },
+            {
                 "name": "Get the pilot helmet",
                 "chest_unopened_img": "/images/items/Mission.png",
                 "sections": [{"item_count": 1}],
