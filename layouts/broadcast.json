@@ -19,71 +19,87 @@
             "item_width": 54,
             "rows": [
               [
-                "ProgBombGlove",
-                "ProgPyrocitor",
-                "ProgBlaster",
-                "ProgGloveofDoom",
-                "ProgMineGlove",
+                "BombGlove",
+                "Pyrocitor",
+                "Blaster",
+                "GloveofDoom",
+                "MineGlove",
+                "GoldBombGlove",
+                "GoldPyrocitor",
+                "GoldBlaster"
+              ],
+              [
+                "Taunter",
+                "SuckCannon",
+                "Devastator",
+                "Walloper",
+                "Visibomb",
+                "GoldGloveofDoom",
+                "GoldMineGlove",
+                "GoldSuckCannon"
+              ],
+              [
+                "DecoyGlove",
+                "DroneDevice",
+                "TeslaClaw",
+                "Morph-o-Ray",
+                "RYNO",
+                "GoldDevastator",
+                "GoldDecoyGlove",
+                "GoldTeslaClaw",
+                "GoldMorph-o-Ray"
+              ],
+              [
+                "Trespasser",
+                "Hydrodisplacer",
+                "Swingshot",
+                "O2Mask",
+                "SonicSummoner",
+                "PilotHelmet",
+                "Hoverboard",
+                "Zoomerator"
+              ],
+              [
+                "PDA",
+                "MetalDetector",
+                "Hologuise",
+                "GrindBoots",
+                "Magneboots",
+                "GoldBolt",
+                "Raritanium",
+                "Persuader"
+              ],
+              [
+                "HeliPack",
+                "ThrusterPack",
+                "HydroPack",
+                "BoltGrabber",
+                "Map-o-Matic",
+                "Codebot",
+                "PremiumNanotech",
+                "UltraNanotech"
+              ],
+              [
                 "Novalis",
                 "Kerwan",
                 "Aridia",
                 "Eudora",
                 "Blarg",
-                "Rilgar"
-              ],
-              [
-                "Taunter",
-                "ProgSuckCannon",
-                "ProgDevastator",
-                "Walloper",
-                "Visibomb",
+                "Rilgar",
                 "Umbris",
                 "Batalia",
-                "Orxon",
-                "Gaspar",
-                "Pokitaru",
-                "Hoven"
+                "Orxon"
               ],
               [
-                "ProgDecoyGlove",
-                "DroneDevice",
-                "ProgTeslaClaw",
-                "ProgMorph-o-Ray",
-                "RYNO",
+                "Gaspar",
+                "Pokitaru",
+                "Hoven",
                 "Gemlik",
                 "Oltanis",
                 "Quartu",
                 "Kalebo III",
                 "Fleet",
                 "Veldin"
-              ],
-              [
-                "Trespasser",
-                "Hydrodisplacer",
-                "Swingshot",
-                "PDA",
-                "MetalDetector",
-                "Hologuise",
-                "HeliPack",
-                "ThrusterPack",
-                "HydroPack",
-                "O2Mask",
-                "SonicSummoner",
-                "PilotHelmet"
-              ],
-              [
-                "GrindBoots",
-                "Magneboots",
-                "Hoverboard",
-                "Persuader",
-                "BoltGrabber",
-                "PremiumNanotech",
-                "UltraNanotech",
-                "Map-o-Matic",
-                "Zoomerator",
-                "Raritanium",
-                "Codebot",
-                "GoldBolt"
               ]
             ]
           }

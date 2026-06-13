@@ -27,7 +27,7 @@
             {
                 "name": "Shady Salesman",
                 "chest_unopened_img": "/images/items/Vendor.png",
-                "access_rules": [ "MetalDetector" ],
+                "access_rules": [ "MetalDetector, HeliPack", "MetalDetector, ThrusterPack" ],
                 "sections": [
                     {
                         "name": "150,000 Bolts",
