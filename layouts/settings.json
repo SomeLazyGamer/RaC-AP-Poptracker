@@ -19,7 +19,8 @@
             "item_width": 50,
             "rows": [
               [
-                "Bolt"
+                "Bolt",
+                "ProgWeap"
               ]
             ]
           }

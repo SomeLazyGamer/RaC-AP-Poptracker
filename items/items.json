@@ -664,7 +664,7 @@
               "codes": "ProgWeapRev"
           },
           {
-              "name": "Progressive Weapons - Random",
+              "name": "Progressive Weapons - Random", 
               "inherit_codes": false,
               "codes": "ProgWeapRandom"
           }
