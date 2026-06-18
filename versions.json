@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.2",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-AP-Poptracker/releases/download/1.1.2/RaC1_Tracker_SLG_1.1.2.zip",
+			"sha256": "f140344f62c89db73b0a2c185b0f879de8e01b7810036cc0e8eee8959af6a0b3",
+			"changelog": ["Weapon Tracking Fixes"]
+		},
+		{
 			"package_version": "1.1.1",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-AP-Poptracker/releases/download/1.1.1/RaC1_Tracker_SLG_1.1.1.zip",
 			"sha256": "db1e1fc0b6872260cdf3ef0556bd292f8553e264ae5f5edd744390dbd09aae71",
