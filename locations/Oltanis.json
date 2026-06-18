@@ -87,7 +87,7 @@
             {
                 "name": "Shattered Glass",
                 "chest_unopened_img": "/images/items/Skill.png",
-                "access_rules": [ "Devastator, Swingshot", "Visibomb", "Swingshot, Magneboots, Grindboots" ],
+                "access_rules": [ "Devastator, Swingshot", "Visibomb", "Swingshot, Magneboots, Grindboots", "ProgWeapNorm, GoldDevastator, Swingshot" ],
                 "visibility_rules": [ "AmondoTrap" ],
                 "sections": [
                     {
@@ -108,7 +108,7 @@
                 "name": "Blast 'Em!",
                 "chest_unopened_img": "/images/items/Skill.png",
                 "visibility_rules": [ "AmondoTrap" ],
-                "access_rules": [ "Devastator", "Visibomb" ],
+                "access_rules": [ "Devastator", "Visibomb", "ProgWeapNorm, GoldDevastator" ],
                 "sections": [
                     {
                         "name": "Destroy three marauding Blarg ships",

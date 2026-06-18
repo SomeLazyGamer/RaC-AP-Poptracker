@@ -42,7 +42,7 @@
             {
                 "name": "Any Ten",
                 "chest_unopened_img": "/images/items/Skill.png",
-                "access_rules": [ "SuckCannon", "Blaster", "Pyrocitor", "TeslaClaw", "Devastator", "Visibomb", "RYNO" ],
+                "access_rules": [ "SuckCannon", "Blaster", "Pyrocitor", "TeslaClaw", "Devastator", "Visibomb", "RYNO", "ProgWeapNorm, GoldSuckCannon" , "ProgWeapNorm, GoldBlaster" , "ProgWeapNorm, GoldPyrocitor" , "ProgWeapNorm, GoldTeslaClaw", "ProgWeapNorm, GoldDevastator" ],
                 "visibility_rules": [ "AmondoTrap" ],
                 "sections": [
                     {

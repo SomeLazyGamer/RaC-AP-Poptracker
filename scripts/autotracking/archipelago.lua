@@ -264,6 +264,13 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
+    if slot_data["progressive_weapons"] then
+        local obj = Tracker:FindObjectForCode("ProgWeap")
+        local stage = slot_data["progressive_weapons"]
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
 
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}

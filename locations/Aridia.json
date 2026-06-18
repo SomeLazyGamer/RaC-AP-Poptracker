@@ -71,7 +71,7 @@
             },
             {
                 "name": "Sandshark Cave",
-                "access_rules": [ "BombGlove", "MineGlove", "Devastator", "Visibomb", "RYNO" ],
+                "access_rules": [ "BombGlove", "MineGlove", "Devastator", "Visibomb", "RYNO", "ProgWeapNorm, GoldBombGlove", "ProgWeapNorm, GoldDevastator", "ProgWeapNorm, GoldMineGlove" ],
                 "chest_unopened_img": "/images/items/GoldBolt.png",
                 "visibility_rules": [ "Bolt" ],
                 "sections": [
@@ -92,7 +92,7 @@
             {
                 "name": "Transported",
                 "visibility_rules": [ "AmondoTrap" ],
-                "access_rules": [ "SuckCannon", "Blaster", "Pyrocitor", "TeslaClaw", "Devastator", "Visibomb", "RYNO" ],
+                "access_rules": [ "SuckCannon", "Blaster", "Pyrocitor", "TeslaClaw", "Devastator", "Visibomb", "RYNO", "ProgWeapNorm, GoldSuckCannon", "ProgWeapNorm, GoldBlaster", "ProgWeapNorm, GoldPyrocitor", "ProgWeapNorm, GoldTeslaClaw", "ProgWeapNorm, GoldDevastator" ],
                 "chest_unopened_img": "/images/items/Skill.png",
                 "sections": [
                     {

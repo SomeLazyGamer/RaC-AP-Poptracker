@@ -356,9 +356,9 @@
     "codes": "GoldBombGlove"
   },
   {
-      "name": "Progressive Bomb Glove",
-      "type": "progressive",
-      "stages": [
+    "name": "Progressive Bomb Glove",
+    "type": "progressive",
+    "stages": [
           {
               "name": "Bomb1",
               "codes": "ProgBomb1"
@@ -368,7 +368,7 @@
               "codes": "ProgBomb2"
           }
       ],
-      "codes": "ProgBomb"
+    "codes": "ProgBomb"
   },
   {
     "name": "Pyrocitor",
@@ -383,9 +383,9 @@
     "codes": "GoldPyrocitor"
   },
   {
-      "name": "Progressive Pyrocitor",
-      "type": "progressive",
-      "stages": [
+    "name": "Progressive Pyrocitor",
+    "type": "progressive",
+    "stages": [
           {
               "name": "Pyro",
               "codes": "ProgPyro1"
@@ -395,7 +395,7 @@
               "codes": "ProgBomb2"
           }
       ],
-      "codes": "ProgPyro"
+    "codes": "ProgPyro"
   },
   {
     "name": "Blaster",
@@ -410,9 +410,9 @@
     "codes": "GoldBlaster"
   },
   {
-      "name": "Progressive Blaster",
-      "type": "progressive",
-      "stages": [
+    "name": "Progressive Blaster",
+    "type": "progressive",
+    "stages": [
           {
               "name": "Blast",
               "codes": "ProgBlast1"
@@ -422,7 +422,7 @@
               "codes": "ProgBlast2"
           }
       ],
-      "codes": "ProgBlast"
+    "codes": "ProgBlast"
   },
   {
     "name": "Glove of Doom",
@@ -449,7 +449,7 @@
               "codes": "ProgDoom2"
           }
       ],
-      "codes": "ProgDoom"
+    "codes": "ProgDoom"
   },
   {
     "name": "Mine Glove",
@@ -476,7 +476,7 @@
               "codes": "ProgMine2"
           }
       ],
-      "codes": "ProgMine"
+    "codes": "ProgMine"
   },
   {
     "name": "Taunter",
@@ -484,22 +484,22 @@
     "img": "images/items/Taunter.png",
     "codes": "Taunter"
   },
-            {
-                "name": "Suck Cannon",
-    "type": "toggle",
-                "img": "images/items/SuckCannon.png",
-                "codes": "SuckCannon"
-            },
-            {
-                "name": "Gold Suck Cannon",
-    "type": "toggle",
-                "img": "images/items/GoldSuckCannon.png",
-                "codes": "GoldSuckCannon"
-            },
   {
-      "name": "Progressive Suck Cannon",
-      "type": "progressive",
-      "stages": [
+    "name": "Suck Cannon",
+    "type": "toggle",
+    "img": "images/items/SuckCannon.png",
+    "codes": "SuckCannon"
+  },
+  {
+    "name": "Gold Suck Cannon",
+    "type": "toggle",
+    "img": "images/items/GoldSuckCannon.png",
+    "codes": "GoldSuckCannon"
+  },
+  {
+    "name": "Progressive Suck Cannon",
+    "type": "progressive",
+    "stages": [
           {
               "name": "Suck1",
               "codes": "ProgSuck1"
@@ -509,24 +509,24 @@
               "codes": "ProgSuck2"
           }
       ],
-      "codes": "ProgSuck"
+    "codes": "ProgSuck"
   },
-            {
-                "name": "Devastator",
-    "type": "toggle",
-                "img": "images/items/Devastator.png",
-                "codes": "Devastator"
-            },
-            {
-                "name": "Gold Devastator",
-    "type": "toggle",
-                "img": "images/items/GoldDevastator.png",
-                "codes": "GoldDevastator"
-            },
   {
-      "name": "Progressive Devastator",
-      "type": "progressive",
-      "stages": [
+    "name": "Devastator",
+    "type": "toggle",
+    "img": "images/items/Devastator.png",
+    "codes": "Devastator"
+  },
+  {
+    "name": "Gold Devastator",
+    "type": "toggle",
+    "img": "images/items/GoldDevastator.png",
+    "codes": "GoldDevastator"
+  },
+  {
+    "name": "Progressive Devastator",
+    "type": "progressive",
+    "stages": [
           {
               "name": "Dev1",
               "codes": "ProgDev1"
@@ -536,7 +536,7 @@
               "codes": "ProgDev2"
           }
       ],
-      "codes": "ProgDev"
+    "codes": "ProgDev"
   },
   {
     "name": "Walloper",
@@ -550,22 +550,22 @@
     "img": "images/items/Visibomb.png",
     "codes": "Visibomb"
   },
-            {
-                "name": "Decoy Glove",
-    "type": "toggle",
-                "img": "images/items/DecoyGlove.png",
-                "codes": "DecoyGlove"
-            },
-            {
-                "name": "Gold Decoy Glove",
-    "type": "toggle",
-                "img": "images/items/GoldDecoyGlove.png",
-                "codes": "GoldDecoyGlove"
-            },
   {
-      "name": "Progressive Decoy Glove",
-      "type": "progressive",
-      "stages": [
+    "name": "Decoy Glove",
+    "type": "toggle",
+    "img": "images/items/DecoyGlove.png",
+    "codes": "DecoyGlove"
+  },
+  {
+    "name": "Gold Decoy Glove",
+    "type": "toggle",
+    "img": "images/items/GoldDecoyGlove.png",
+    "codes": "GoldDecoyGlove"
+  },
+  {
+    "name": "Progressive Decoy Glove",
+    "type": "progressive",
+    "stages": [
           {
               "name": "Decoy1",
               "codes": "ProgDecoy1"
@@ -575,7 +575,7 @@
               "codes": "ProgDecoy2"
           }
       ],
-      "codes": "ProgDecoy"
+    "codes": "ProgDecoy"
   },
   {
     "name": "Drone Device",
@@ -583,22 +583,22 @@
     "img": "images/items/DroneDevice.png",
     "codes": "DroneDevice"
   },
-            {
-                "name": "Tesla Claw",
-    "type": "toggle",
-                "img": "images/items/TeslaClaw.png",
-                "codes": "TeslaClaw"
-            },
-            {
-                "name": "Gold Tesla Claw",
-    "type": "toggle",
-                "img": "images/items/GoldTeslaClaw.png",
-                "codes": "GoldTeslaClaw"
-            },
   {
-      "name": "Progressive Tesla Claw",
-      "type": "progressive",
-      "stages": [
+    "name": "Tesla Claw",
+    "type": "toggle",
+    "img": "images/items/TeslaClaw.png",
+    "codes": "TeslaClaw"
+  },
+  {
+    "name": "Gold Tesla Claw",
+    "type": "toggle",
+    "img": "images/items/GoldTeslaClaw.png",
+    "codes": "GoldTeslaClaw"
+  },
+  {
+    "name": "Progressive Tesla Claw",
+    "type": "progressive",
+    "stages": [
           {
               "name": "Tesla1",
               "codes": "ProgTesla1"
@@ -608,24 +608,24 @@
               "codes": "ProgTesla2"
           }
       ],
-      "codes": "ProgTesla"
+    "codes": "ProgTesla"
   },
-            {
-                "name": "Morph-o-Ray",
-    "type": "toggle",
-                "img": "images/items/Morph-o-Ray.png",
-                "codes": "Morph-o-Ray"
-            },
-            {
-                "name": "Gold Morph-o-Ray",
-    "type": "toggle",
-                "img": "images/items/GoldMorph-o-Ray.png",
-                "codes": "GoldMorph-o-Ray"
-            },
   {
-      "name": "Progressive Morph-o-Ray",
-      "type": "progressive",
-      "stages": [
+    "name": "Morph-o-Ray",
+    "type": "toggle",
+    "img": "images/items/Morph-o-Ray.png",
+    "codes": "Morph-o-Ray"
+  },
+  {
+    "name": "Gold Morph-o-Ray",
+    "type": "toggle",
+    "img": "images/items/GoldMorph-o-Ray.png",
+    "codes": "GoldMorph-o-Ray"
+  },
+  {
+    "name": "Progressive Morph-o-Ray",
+    "type": "progressive",
+    "stages": [
           {
               "name": "Morph1",
               "codes": "ProgMorph1"
@@ -635,7 +635,41 @@
               "codes": "ProgMorph2"
           }
       ],
-      "codes": "ProgMorph"
+    "codes": "ProgMorph"
+  },
+  {
+    "name": "Progressive Weapons",
+    "loop": false,
+    "allow_disabled": false,
+    "type": "progressive",
+    "stages": [
+          {
+              "name": "Progressive Weapons - Off",
+              "inherit_codes": false,
+              "codes": "ProgWeapOff"
+          },
+          {
+              "name": "Progressive Weapons - Normal",
+              "inherit_codes": false,
+              "codes": "ProgWeapNorm"
+          },
+          {
+              "name": "Progressive Weapons - On",
+              "inherit_codes": false,
+              "codes": "ProgWeapOn"
+          },
+          {
+              "name": "Progressive Weapons - Reversed",
+              "inherit_codes": false,
+              "codes": "ProgWeapRev"
+          },
+          {
+              "name": "Progressive Weapons - Random",
+              "inherit_codes": false,
+              "codes": "ProgWeapRandom"
+          }
+      ],
+    "codes": "ProgWeap"
   },
   {
     "name": "R.Y.N.O.",
@@ -667,20 +701,5 @@
         "codes": "BoltSanity,Bolt"
       }
     ]
-  },
-  {
-    "name": "ShortRanged",
-    "type": "toggle",
-    "codes": "RYNO"
-  },
-  {
-    "name": "MedRanged",
-    "type": "toggle",
-    "codes": "RYNO"
-  },
-  {
-    "name": "LongRanged",
-    "type": "toggle",
-    "codes": "RYNO"
   }
 ]

@@ -105,7 +105,7 @@
             {
                 "name": "Blimpy",
                 "chest_unopened_img": "/images/items/Skill.png",
-                "access_rules": [ "Devastator", "Visibomb" ],
+                "access_rules": [ "Devastator", "Visibomb", "ProgWeapNorm, GoldDevastator" ],
                 "visibility_rules": [ "AmondoTrap" ],
                 "sections": [
                     {
@@ -125,7 +125,7 @@
             {
                 "name": "Qwarktastic",
                 "chest_unopened_img": "/images/items/Skill.png",
-                "access_rules": [ "Devastator", "Visibomb", "RYNO" ],
+                "access_rules": [ "Devastator", "Visibomb", "RYNO", "ProgWeapNorm, GoldDevastator" ],
                 "visibility_rules": [ "AmondoTrap" ],
                 "sections": [
                     {

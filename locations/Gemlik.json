@@ -28,8 +28,12 @@
             {
                 "name": "Sitting Ducks",
                 "chest_unopened_img": "/images/items/GoldBolt.png",
-                "access_rules": [ "Magneboots, Trespasser, Swingshot, HeliPack, Visibomb","Magneboots, Trespasser, Swingshot, HeliPack, Devastator",
-                "Magneboots, Trespasser, Swingshot, ThrusterPack, Visibomb","Magneboots, Trespasser, Swingshot, ThrusterPack, Devastator" ],
+                "access_rules": [ "Magneboots, Trespasser, Swingshot, HeliPack, Visibomb",
+                "Magneboots, Trespasser, Swingshot, HeliPack, Devastator", 
+                "ProgWeapNorm, GoldDevastator, Magneboots, Trespasser, Swingshot, HeliPack",
+                "Magneboots, Trespasser, Swingshot, ThrusterPack, Visibomb",
+                "Magneboots, Trespasser, Swingshot, ThrusterPack, Devastator", 
+                "ProgWeapNorm, GoldDevastator, Magneboots, Trespasser, Swingshot, ThrusterPack" ],
                 "visibility_rules": [ "AmondoTrap" ],
                 "sections": [
                     {
@@ -49,8 +53,12 @@
             {
                 "name": "Defeat Captain Quark",
                 "chest_unopened_img": "/images/items/Infobot.png",
-                "access_rules": [ "Magneboots, Trespasser, Swingshot, HeliPack, Visibomb","Magneboots, Trespasser, Swingshot, HeliPack, Devastator",
-                "Magneboots, Trespasser, Swingshot, ThrusterPack, Visibomb","Magneboots, Trespasser, Swingshot, ThrusterPack, Devastator" ],
+                "access_rules": [ "Magneboots, Trespasser, Swingshot, HeliPack, Visibomb",
+                "Magneboots, Trespasser, Swingshot, HeliPack, Devastator", 
+                "ProgWeapNorm, GoldDevastator, Magneboots, Trespasser, Swingshot, HeliPack",
+                "Magneboots, Trespasser, Swingshot, ThrusterPack, Visibomb",
+                "Magneboots, Trespasser, Swingshot, ThrusterPack, Devastator", 
+                "ProgWeapNorm, GoldDevastator, Magneboots, Trespasser, Swingshot, ThrusterPack" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {
@@ -64,8 +72,12 @@
             {
                 "name": "Golden Weapons",
                 "visibility_rules": [ "AmondoTrap" ],
-                "access_rules": [ "MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, Visibomb","MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, Devastator", 
-                "MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, Visibomb","MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, Devastator" ],
+                "access_rules": [ "MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, Visibomb",
+                "MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, Devastator", 
+                "MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, Visibomb",
+                "MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, ProgWeapNorm, GoldDevastator",
+                "MetalDetector, GoldBolt:40, Trespasser, Swingshot, ThrusterPack, Devastator",
+                "MetalDetector, GoldBolt:40, Trespasser, Swingshot, HeliPack, ProgWeapNorm, GoldDevastator" ],
                 "sections": [
                     {
                         "name": "Golden Weapon 1 - 60,000 Bolts",

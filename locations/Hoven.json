@@ -85,7 +85,7 @@
             {
                 "name": "Whirlybirds",
                 "chest_unopened_img": "/images/items/Skill.png",
-                "access_rules": [ "Devastator", "Visibomb" ],
+                "access_rules": [ "Devastator", "Visibomb", "ProgWeapNorm, GoldDevastator" ],
                 "visibility_rules": [ "AmondoTrap" ],
                 "sections": [
                     {
@@ -106,7 +106,9 @@
                 "name": "Destroy the Planetbuster",
                 "chest_unopened_img": "/images/items/Infobot.png",
                 "access_rules": [ "HeliPack, Visibomb","HeliPack, Blaster", "HeliPack, Devastator", "HeliPack, RYNO", 
-                "ThrusterPack, Visibomb","ThrusterPack, Blaster", "ThrusterPack, Devastator", "ThrusterPack, RYNO" ],
+                "ThrusterPack, Visibomb","ThrusterPack, Blaster", "ThrusterPack, Devastator", "ThrusterPack, RYNO",
+                "HeliPack, ProgWeapNorm, GoldBlaster", "ThrusterPack, ProgWeapNorm, GoldBlaster", 
+                "HeliPack, ProgWeapNorm, GoldDevastator", "ThrusterPack, ProgWeapNorm, GoldDevastator" ],
                 "sections": [{"item_count": 1}],
                 "map_locations": [
                     {

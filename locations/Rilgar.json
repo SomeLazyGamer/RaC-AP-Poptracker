@@ -106,7 +106,7 @@
             {
                 "name": "Cluck, Cluck",
                 "chest_unopened_img": "/images/items/Skill.png",
-                "access_rules": [ "Morph-o-Ray" ],
+                "access_rules": [ "Morph-o-Ray", "ProgWeapNorm, GoldMorph-o-Ray" ],
                 "visibility_rules": [ "AmondoTrap" ],
                 "sections": [
                     {

@@ -67,7 +67,7 @@
             {
                 "name": "Sniper",
                 "chest_unopened_img": "/images/items/Skill.png",
-                "access_rules": [ "O2Mask, HeliPack, Devastator", "O2Mask, HeliPack, Visabomb", "O2Mask, HeliPack, Blaster" ],
+                "access_rules": [ "O2Mask, HeliPack, Devastator", "O2Mask, HeliPack, Visabomb", "O2Mask, HeliPack, Blaster", "ProgWeapNorm, GoldDevastator, HeliPack, O2Mask", "ProgWeapNorm, GoldBlaster, HeliPack, O2Mask" ],
                 "visibility_rules": [ "AmondoTrap" ],
                 "sections": [
                     {
